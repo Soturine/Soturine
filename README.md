@@ -162,6 +162,18 @@ Além da programação, também produzo músicas usando o nome **Soturine**.
 
 ---
 
+## 🎮 Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Soturine/Soturine/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Soturine/Soturine/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Soturine/Soturine/output/pacman-contribution-graph.svg">
+  </picture>
+</p>
+
+---
+
 ## 🧠 Áreas que mais curto estudar
 
 - Desenvolvimento Android
