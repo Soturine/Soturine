@@ -6,7 +6,6 @@
 
 **Mobile • Full Stack • IoT • Robótica • IA • Sistemas Embarcados • Música**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Soturine-181717?style=for-the-badge&logo=github)](https://github.com/Soturine)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Ryan%20Souza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelryansouza/)
 [![Spotify](https://img.shields.io/badge/Spotify-Soturine-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-pt/artist/3l7S3LRvCbVM4qqD8zwQSG)
 [![YouTube Music](https://img.shields.io/badge/YouTube%20Music-Soturine-FF0000?style=for-the-badge&logo=youtubemusic&logoColor=white)](https://music.youtube.com/channel/UCYTTjhDXj4T5LnyTktDck2g)
@@ -17,11 +16,11 @@
 
 ## 👨‍💻 Sobre mim
 
-Me chamo **Rafael Ryan Ramos de Souza**, também conhecido como **Soturine**.
+Me chamo **Rafael Ryan Ramos de Souza**.
 
 Sou **Técnico em Mecatrônica** e atualmente curso **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Tenho interesse em criar projetos que misturam **software, hardware, automação, robótica, interfaces modernas e inteligência artificial**.
 
-Também estudo **inglês** com foco em comunicação, leitura técnica e desenvolvimento profissional. Além da programação, produzo músicas como **Soturine**, conectando tecnologia, criatividade e identidade artística.
+Também estudo **inglês** com foco em comunicação, leitura técnica e desenvolvimento profissional. Além da programação, mantenho um projeto musical como **Soturine**, conectando tecnologia, criatividade e identidade artística.
 
 ---
 
@@ -105,34 +104,18 @@ Chatbot em **SWI-Prolog** para recomendação de pets com base no perfil do usu�
 
 ---
 
-### 🤖 Robô Sumô com ESP32
+### 🤖 Robótica com ESP32 — Sumô e Seguidor de Linha
 
-Projeto de robótica móvel com comportamento autônomo para arena de sumô.
+Projetos acadêmicos de robótica móvel usando **ESP32, PlatformIO, ESP-IDF, sensores e motores DC**.
 
-- ESP32 com PlatformIO e ESP-IDF
-- Linguagem C
-- Sensor ultrassônico HC-SR04 para detecção de oponente
-- Sensores TCRT5000 para borda da arena
-- Controle de motores DC com ponte H L298N
-- PWM via LEDC do ESP32
-- Lógica de prioridade para atacar, procurar oponente e evitar sair da arena
+- Firmware em C com ESP-IDF
+- Controle de motores com ponte H L298N
+- Leitura de sensores digitais e analógicos
+- Robô sumô com sensor ultrassônico HC-SR04, sensores TCRT5000 e lógica de ataque/defesa
+- Robô segue linha com sensores de refletância e correção de trajetória
+- Aplicação prática de sistemas embarcados, eletrônica e lógica de controle
 
-🔗 [Ver repositório](https://github.com/Soturine/esp32-sumo-robot)
-
----
-
-### 🛣️ Robô Seguidor de Linha com ESP32
-
-Projeto acadêmico de robótica para navegação por pista usando sensores de refletância.
-
-- ESP32 com PlatformIO e ESP-IDF
-- Sensores digitais de refletância
-- Ponte H L298N com motores DC
-- Modos de movimento: frente, curva para esquerda e curva para direita
-- Presets de comportamento selecionáveis pelo botão BOOT
-- Lógica simples de correção de trajetória
-
-🔗 [Ver repositório](https://github.com/Soturine/esp32-line-follower-robot)
+🔗 [Robô Sumô](https://github.com/Soturine/esp32-sumo-robot) • [Robô Seguidor de Linha](https://github.com/Soturine/esp32-line-follower-robot)
 
 ---
 
@@ -169,20 +152,12 @@ Além da programação, também produzo músicas usando o nome **Soturine**.
 ## 📊 Estatísticas
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Soturine&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=pt-br" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soturine&layout=compact&theme=tokyonight&langs_count=8&locale=pt-br" />
+  <img width="760" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soturine&theme=tokyonight" />
 </p>
 
----
-
-## 🎮 Contribuições
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Soturine/Soturine/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Soturine/Soturine/output/pacman-contribution-graph.svg">
-    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/Soturine/Soturine/output/pacman-contribution-graph.svg">
-  </picture>
+  <img width="370" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Soturine&theme=tokyonight" />
+  <img width="370" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Soturine&theme=tokyonight" />
 </p>
 
 ---
