@@ -40,6 +40,30 @@ Também estudo **inglês** com foco em comunicação, leitura técnica e desenvo
   <img src="https://img.shields.io/badge/Jetpack%20Compose-Android-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" />
 </p>
 
+### Principais
+
+`Java` `Kotlin` `C` `C++` `C#` `Python` `JavaScript` `TypeScript` `PHP` `HTML` `CSS`
+
+### Mobile / Android
+
+`Android Studio` `Jetpack Compose` `Material 3` `CameraX` `ML Kit` `Room` `DataStore` `WorkManager`
+
+### Web / Full Stack
+
+`React` `Vite` `Node.js` `Express` `Bootstrap` `Tailwind CSS` `JWT` `Socket.IO` `Chart.js` `jsPDF`
+
+### Banco de Dados
+
+`MySQL` `MongoDB` `SQLite`
+
+### Sistemas Embarcados, IoT e Robótica
+
+`ESP32` `ESP-IDF` `PlatformIO` `FreeRTOS` `MQTT` `Arduino` `MPU6050` `HC-SR04` `TCRT5000` `L298N`
+
+### IA, Jogos e Ferramentas
+
+`SWI-Prolog` `Prolog` `CBR` `Phaser 3` `Git` `GitHub` `GitHub Actions` `GitHub Pages` `VS Code` `Figma` `XAMPP` `Insomnia` `PowerShell`
+
 ---
 
 ## 🚀 Projetos em destaque
