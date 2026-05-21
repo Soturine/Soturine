@@ -68,6 +68,22 @@ Também estudo **inglês** com foco em comunicação, leitura técnica e desenvo
 
 ## 🚀 Projetos em destaque
 
+### 🚆 SotuRail — Context OS local-first para agentes de IA
+
+Ferramenta CLI em desenvolvimento para organizar, reduzir e transformar contexto de repositórios e terminais para uso com agentes de programação por IA.
+
+- TypeScript, Node.js e arquitetura local-first
+- Repo map, leitura progressiva de arquivos e preservação de logs brutos
+- Redução de saída de terminal, JSON e respostas de agentes
+- Modos de compressão como `concise`, `ultra`, `review`, `commit`, `debug` e `docs`
+- Engine de Knowledge-to-Rules para transformar documentos em regras auditáveis
+- Integrações planejadas com hooks, skills, MCP, context packs e workflows seguros
+- Publicado no npm como pacote `soturail`
+
+🔗 [Ver repositório](https://github.com/Soturine/soturail) • [npm](https://www.npmjs.com/package/soturail)
+
+---
+
 ### 📱 Scanora — Scanner de documentos para Android
 
 Aplicativo Android de digitalização de documentos com foco em **processamento local, OCR no dispositivo e privacidade**.
