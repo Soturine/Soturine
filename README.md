@@ -18,7 +18,7 @@
 
 Me chamo **Rafael Ryan Ramos de Souza**.
 
-Sou **Técnico em Mecatrônica** e atualmente curso **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Tenho interesse em criar projetos que misturam **software, hardware, automação, robótica, interfaces modernas e inteligência artificial**.
+Sou **Técnico em Mecatrônica** e curso **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Tenho interesse em criar projetos que misturam **software, hardware, automação, robótica, interfaces modernas e inteligência artificial**.
 
 Também estudo **inglês** com foco em comunicação, leitura técnica e desenvolvimento profissional. Além da programação, mantenho um projeto musical como **Soturine**, conectando tecnologia, criatividade e identidade artística.
 
@@ -26,11 +26,74 @@ Também estudo **inglês** com foco em comunicação, leitura técnica e desenvo
 
 ## 🛠️ Tecnologias e Ferramentas
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,kotlin,androidstudio,c,cpp,cs,python,js,ts,php,html,css,react,vite,nodejs,express,mysql,mongodb,sqlite,git,github,arduino,figma,vscode&perline=8" />
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="96" height="115">
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="60" height="60" />
+      <br>Java
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="55" height="55" />
+      <br>Kotlin
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="60" height="60" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="60" height="60" />
+      <br>C++
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96" height="115">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="55" height="55" />
+      <br>C
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="55" height="55" />
+      <br>C#
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="55" height="55" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="55" height="55" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="60" height="60" />
+      <br>MySQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96" height="115">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="55" height="55" />
+      <br>MongoDB
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" width="55" height="55" />
+      <br>Android
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" width="55" height="55" />
+      <br>Arduino
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="55" height="55" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60" />
+      <br>GitHub
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ESP32-Sistemas%20Embarcados-323232?style=for-the-badge&logo=espressif&logoColor=white" />
@@ -70,14 +133,12 @@ Também estudo **inglês** com foco em comunicação, leitura técnica e desenvo
 
 ### 🚆 SotuRail — Context OS local-first para agentes de IA
 
-Ferramenta CLI em desenvolvimento para organizar, reduzir e transformar contexto de repositórios e terminais para uso com agentes de programação por IA.
+CLI para organizar, reduzir e transformar contexto de repositórios e terminais para agentes de programação por IA.
 
 - TypeScript, Node.js e arquitetura local-first
-- Repo map, leitura progressiva de arquivos e preservação de logs brutos
-- Redução de saída de terminal, JSON e respostas de agentes
-- Modos de compressão como `concise`, `ultra`, `review`, `commit`, `debug` e `docs`
-- Engine de Knowledge-to-Rules para transformar documentos em regras auditáveis
-- Integrações planejadas com hooks, skills, MCP, context packs e workflows seguros
+- Repo map, leitura progressiva e preservação de logs brutos
+- Redutores para terminal, JSON e respostas de agentes
+- Knowledge-to-Rules, hooks, skills, MCP e context packs
 - Publicado no npm como pacote `soturail`
 
 🔗 [Ver repositório](https://github.com/Soturine/soturail) • [npm](https://www.npmjs.com/package/soturail)
@@ -89,10 +150,8 @@ Ferramenta CLI em desenvolvimento para organizar, reduzir e transformar contexto
 Aplicativo Android de digitalização de documentos com foco em **processamento local, OCR no dispositivo e privacidade**.
 
 - Kotlin, Jetpack Compose e Material 3
-- ML Kit Document Scanner e ML Kit Text Recognition
-- CameraX para captura manual
-- Histórico local com favoritos, tags e busca
-- Exportação em PDF, JPG e PNG
+- ML Kit Document Scanner, ML Kit Text Recognition e CameraX
+- Histórico local com favoritos, tags, busca e exportação em PDF/JPG/PNG
 - Fluxo pensado para funcionar sem backend obrigatório no MVP
 
 🔗 [Ver repositório](https://github.com/Soturine/scanora)
@@ -103,12 +162,10 @@ Aplicativo Android de digitalização de documentos com foco em **processamento 
 
 Projeto acadêmico full stack para monitoramento de quedas, imobilidade e telemetria usando **ESP32 + MPU6050**.
 
-- Firmware com ESP32 e sensor MPU6050
+- Firmware com ESP32, MPU6050 e MQTT
 - Backend com Node.js, Express, MySQL, MQTT e Socket.IO
 - Frontend com React, Vite, TypeScript e Tailwind
 - Dashboard para pacientes, dispositivos, eventos e alertas
-- Modelo multiusuário/multiorganização
-- Pareamento seguro de dispositivo com código temporário
 
 🔗 [Ver repositório](https://github.com/Soturine/iot-fall-monitor)
 
@@ -119,13 +176,24 @@ Projeto acadêmico full stack para monitoramento de quedas, imobilidade e teleme
 Sistema web acadêmico para gestão de uma biblioteca com tema geek/nerd.
 
 - Node.js, Express, MySQL e MongoDB
-- Autenticação com JWT
-- Arquitetura com Router, Middleware, Controller, Service, DAO e Model
+- Autenticação JWT e arquitetura Router/Middleware/Controller/Service/DAO/Model
 - CRUD de autores, categorias, livros e empréstimos
-- Upload de capas, pesquisa, dashboard, logs, JSON, XML e relatório PDF
-- Interface com HTML, CSS, JavaScript puro e Bootstrap 5
+- Dashboard, logs, upload de capas, JSON, XML e relatório PDF
 
 🔗 [Ver repositório](https://github.com/Soturine/biblioteca-geek-fullstack)
+
+---
+
+### 🌾 Vale dos Casos — Fazendinha com IA
+
+Jogo web 2D top-down de fazenda com assistente agrícola baseado em **Raciocínio Baseado em Casos (CBR)**.
+
+- Vite, TypeScript e Phaser 3
+- Plantio, colheita, loja, pesca, clima e ciclo dia/noite
+- Assistente CBR com casos, similaridade e recomendação
+- Customização de personagem, persistência local e GitHub Pages
+
+🔗 [Ver repositório](https://github.com/Soturine/fazenda-inteligente-cbr)
 
 ---
 
@@ -136,9 +204,7 @@ Chatbot em **SWI-Prolog** para recomendação de pets com base no perfil do usu�
 - Base de conhecimento em Prolog
 - Questionário com regras de compatibilidade
 - Ranking por score, alertas e vetos
-- Explicação da recomendação final
 - Testes automatizados e versão compatível com SWISH
-- Projeto acadêmico de Inteligência Artificial
 
 🔗 [Ver repositório](https://github.com/Soturine/petbot-prolog-ia)
 
@@ -150,27 +216,10 @@ Projetos acadêmicos de robótica móvel usando **ESP32, PlatformIO, ESP-IDF, se
 
 - Firmware em C com ESP-IDF
 - Controle de motores com ponte H L298N
-- Leitura de sensores digitais e analógicos
-- Robô sumô com sensor ultrassônico HC-SR04, sensores TCRT5000 e lógica de ataque/defesa
+- Robô sumô com HC-SR04, TCRT5000 e lógica de ataque/defesa
 - Robô segue linha com sensores de refletância e correção de trajetória
-- Aplicação prática de sistemas embarcados, eletrônica e lógica de controle
 
 🔗 [Robô Sumô](https://github.com/Soturine/esp32-sumo-robot) • [Robô Seguidor de Linha](https://github.com/Soturine/esp32-line-follower-robot)
-
----
-
-### 🌾 Vale dos Casos — Fazendinha com IA
-
-Jogo web 2D top-down de fazenda com assistente agrícola baseado em **Raciocínio Baseado em Casos (CBR)**.
-
-- Vite, TypeScript e Phaser 3
-- Gameplay de fazenda com plantio, colheita, loja, pesca, clima e ciclo dia/noite
-- Assistente CBR integrado ao jogo
-- Sistema de casos, similaridade e recomendação
-- Customização de personagem e persistência local
-- Publicação via GitHub Pages
-
-🔗 [Ver repositório](https://github.com/Soturine/fazenda-inteligente-cbr)
 
 ---
 
