@@ -133,12 +133,13 @@ Também estudo **inglês** com foco em comunicação, leitura técnica e desenvo
 
 ### 🚆 SotuRail — Context OS local-first para agentes de IA
 
-CLI para organizar, reduzir e transformar contexto de repositórios e terminais para agentes de programação por IA.
+CLI local-first para organizar, reduzir e estruturar contexto de repositórios e sessões de terminal para agentes de programação por IA.
 
-- TypeScript, Node.js e arquitetura local-first
-- Repo map, leitura progressiva e preservação de logs brutos
-- Redutores para terminal, JSON e respostas de agentes
-- Knowledge-to-Rules, hooks, skills, MCP e context packs
+- TypeScript, Node.js e modo nativo opcional em Rust para hot paths
+- Repo map, leitura progressiva, execução segura e recuperação de logs brutos
+- Redutores para Git, testes, npm, TypeScript, Docker, ESLint, Java/Maven/Gradle, build, JSON e terminal genérico
+- Deduplicação de saídas repetidas, métricas locais honestas e benchmarks reproduzíveis
+- Knowledge-to-Rules, SDD specs, memória local, agent exports, MCP, context packs, skills e Workflow Rail
 - Publicado no npm como pacote `soturail`
 
 🔗 [Ver repositório](https://github.com/Soturine/soturail) • [npm](https://www.npmjs.com/package/soturail)
