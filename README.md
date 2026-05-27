@@ -37,7 +37,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>Kotlin
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="60" height="60" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
@@ -59,7 +59,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>C++
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="C#" width="60" height="60" />
       <br>C#
     </td>
     <td align="center" width="96">
@@ -81,7 +81,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>CSS3
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" />
       <br>React
     </td>
     <td align="center" width="96">
@@ -143,7 +143,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>Figma
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="55" height="55" />
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" />
       <br>Docker
     </td>
     <td align="center" width="96">
@@ -157,6 +157,10 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab" width="55" height="55" />
       <br>GitLab
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="60" height="60" />
+      <br>REST API
     </td>
   </tr>
 </table>
