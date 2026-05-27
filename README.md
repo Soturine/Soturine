@@ -97,7 +97,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>Bootstrap
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phaser/phaser-original.svg" alt="Phaser 3" width="55" height="55" />
+      <img src="https://cdn.simpleicons.org/phaser/FFFFFF" alt="Phaser 3" width="55" height="55" />
       <br>Phaser 3
     </td>
     <td align="center" width="96">
@@ -175,7 +175,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>PowerShell
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xampp/xampp-original.svg" alt="XAMPP" width="55" height="55" />
+      <img src="https://cdn.simpleicons.org/xampp/FB7A24" alt="XAMPP" width="55" height="55" />
       <br>XAMPP
     </td>
     <td align="center" width="96">
