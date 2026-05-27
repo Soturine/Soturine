@@ -48,13 +48,13 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60" />
       <br>Python
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="96" height="115">
+    <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="55" height="55" />
       <br>C
     </td>
-    <td align="center" width="96">
+  </tr>
+  <tr>
+    <td align="center" width="96" height="115">
       <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="60" height="60" />
       <br>C++
     </td>
@@ -70,9 +70,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="Rust" width="55" height="55" />
       <br>Rust
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="96" height="115">
+    <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="55" height="55" />
       <br>HTML5
     </td>
@@ -80,7 +78,9 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="55" height="55" />
       <br>CSS3
     </td>
-    <td align="center" width="96">
+  </tr>
+  <tr>
+    <td align="center" width="96" height="115">
       <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" />
       <br>React
     </td>
@@ -92,6 +92,18 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="55" height="55" />
       <br>Tailwind
     </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="55" height="55" />
+      <br>Bootstrap
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phaser/phaser-original.svg" alt="Phaser 3" width="55" height="55" />
+      <br>Phaser 3
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" width="55" height="55" />
+      <br>Figma
+    </td>
   </tr>
   <tr>
     <td align="center" width="96" height="115">
@@ -101,6 +113,10 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="55" height="55" />
       <br>Express
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="60" height="60" />
+      <br>REST API
     </td>
     <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="60" height="60" />
@@ -133,34 +149,38 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>GitHub
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="55" height="55" />
-      <br>VS Code
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96" height="115">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" width="55" height="55" />
-      <br>Figma
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="55" height="55" />
+      <br>Actions
     </td>
     <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" />
       <br>Docker
     </td>
-    <td align="center" width="96">
+  </tr>
+  <tr>
+    <td align="center" width="96" height="115">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" width="55" height="55" />
       <br>npm
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="55" height="55" />
-      <br>Bootstrap
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="55" height="55" />
+      <br>VS Code
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab" width="55" height="55" />
       <br>GitLab
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="60" height="60" />
-      <br>REST API
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" alt="PowerShell" width="55" height="55" />
+      <br>PowerShell
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xampp/xampp-original.svg" alt="XAMPP" width="55" height="55" />
+      <br>XAMPP
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" alt="JSON" width="55" height="55" />
+      <br>JSON
     </td>
   </tr>
 </table>
@@ -196,7 +216,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
 
 ### IA, Jogos e Ferramentas
 
-`SWI-Prolog` `Prolog` `CBR` `Phaser 3` `Git` `GitHub` `GitHub Actions` `GitHub Pages` `Docker` `npm` `VS Code` `Figma` `XAMPP` `Insomnia` `PowerShell`
+`SWI-Prolog` `Prolog` `CBR` `Phaser 3` `Git` `GitHub` `GitHub Actions` `GitHub Pages` `Docker` `npm` `VS Code` `Figma` `XAMPP` `PowerShell` `JSON`
 
 ---
 
