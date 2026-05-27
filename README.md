@@ -97,7 +97,7 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
       <br>Bootstrap
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.simpleicons.org/phaser/FFFFFF" alt="Phaser 3" width="55" height="55" />
+      <img src="https://raw.githubusercontent.com/Soturine/Soturine/main/assets/phaser3-icon.svg" alt="Phaser 3" width="55" height="55" />
       <br>Phaser 3
     </td>
     <td align="center" width="96">
