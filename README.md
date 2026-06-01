@@ -224,15 +224,17 @@ Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de
 
 ### 🚆 SotuRail — Context OS local-first para agentes de IA
 
-CLI local-first para preparar contexto, memória, logs, regras, diagramas, políticas, workflows e evidências de execução para agentes de programação por IA.
+CLI local-first para preparar, reduzir, organizar e entregar contexto confiável para agentes de programação por IA. O projeto chegou à **v1.0.0** e funciona como uma camada de “trilhos de contexto” para leitura progressiva de repositórios, compressão reversível de terminal, workflows SDD, memória, hooks, benchmarks e payloads mais amigáveis para cache.
 
-- TypeScript, Node.js e modo nativo opcional em Rust para hot paths
-- Repo map, leitura progressiva, execução segura e recuperação de logs brutos
-- Redutores para Git, testes, npm, TypeScript, Docker, ESLint, Java/Maven/Gradle, build, JSON e terminal genérico
+- TypeScript, Node.js e aceleração nativa opcional em Rust para hot paths
+- Reversible Terminal Compression para reduzir logs mantendo recuperação auditável
+- Progressive Repo Reading para ler projetos em camadas, sem despejar tudo de uma vez
+- SDD workflows para conectar especificação, implementação, evidências e validação
+- Hooks, benchmarks e métricas locais para avaliar ganhos reais de contexto
 - Memory Rail, Context Intelligence, Policy Rail, Diagram Rail, Workflow Rail e Evaluation Suite
-- Project Brain para registrar claims, decisões, bugs, gaps, regras e conhecimento verificável do projeto
-- Reverse Specification Rail para extrair claims e specs locais a partir de código, docs e testes
-- Agent Runtime Adapter, agent exports, MCP, context packs, skills, métricas locais honestas e benchmarks reproduzíveis
+- Project Brain para registrar claims, decisões, bugs, gaps, regras e conhecimento verificável
+- Reverse Specification Rail para extrair specs locais a partir de código, docs e testes
+- Agent Runtime Adapter, MCP, context packs, skills e payloads cache-friendly
 - Publicado no npm como pacote `soturail`
 
 🔗 [Ver repositório](https://github.com/Soturine/soturail) • [npm](https://www.npmjs.com/package/soturail)
