@@ -4,7 +4,7 @@
 
 ### Técnico em Mecatrônica | Engenharia da Computação | Desenvolvedor em formação
 
-**Mobile • Full Stack • IoT • Robótica • IA • Sistemas Embarcados • Ferramentas para Devs • Música**
+**Mobile • Full Stack • IoT • Robótica • IA Aplicada • Sistemas Embarcados • Ferramentas para Devs • Música**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Ryan%20Souza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelryansouza/)
 [![Spotify](https://img.shields.io/badge/Spotify-Soturine-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-pt/artist/3l7S3LRvCbVM4qqD8zwQSG)
@@ -21,6 +21,8 @@ Me chamo **Rafael Ryan Ramos de Souza**.
 Sou **Técnico em Mecatrônica** e curso **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Tenho interesse em criar projetos que misturam **software, hardware, automação, robótica, interfaces modernas e inteligência artificial**.
 
 Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de software, sistemas embarcados, IoT, IA aplicada, ferramentas para desenvolvedores e criatividade digital. Além da programação, mantenho um projeto musical como **Soturine**.
+
+Atualmente, tenho focado em projetos de **IA aplicada, agentes, automação assistida e ferramentas local-first**, sempre tentando equilibrar utilidade real, qualidade de código, documentação, testes e escopo bem controlado.
 
 ---
 
@@ -241,6 +243,23 @@ CLI local-first para preparar, reduzir, organizar e entregar contexto confiável
 
 ---
 
+### 💼 SotuHire — Copiloto local-first para carreira e busca de vagas
+
+Assistente inteligente para ajudar pessoas a encontrar, analisar e se preparar melhor para vagas. O foco do projeto é combinar **currículo, descrição da vaga, compatibilidade ATS, palavras-chave, match score e recomendações práticas**, sem transformar a ferramenta em spam de candidaturas automáticas.
+
+- Análise de currículo com foco em clareza, palavras-chave e compatibilidade ATS
+- Comparação entre CV e descrição de vaga com score, pontos fortes, gaps e recomendações
+- Sugestões de melhoria para currículo, perfil profissional e texto de candidatura
+- Radar de vagas públicas e oportunidades menos óbvias como evolução planejada
+- Dashboard e histórico para acompanhar análises, vagas e versões do currículo
+- Fluxo assistido: a IA recomenda, organiza e prepara; a decisão final continua com o usuário
+- Arquitetura pensada com regras de negócio claras, SOLID, Clean Code, QA e MVP sem overengineering
+- Projeto em evolução para atuar como um copiloto de carreira multiárea e generalista
+
+🔗 [Ver repositório](https://github.com/Soturine/sotuhire)
+
+---
+
 ### 📱 Scanora — Scanner de documentos para Android
 
 Aplicativo Android de digitalização de documentos com foco em **processamento local, OCR no dispositivo e privacidade**.
@@ -364,6 +383,7 @@ Além da programação, também produzo músicas usando o nome **Soturine**.
 - Desenvolvimento Android
 - Desenvolvimento Full Stack
 - Ferramentas para desenvolvedores e agentes de IA
+- IA aplicada a carreira, produtividade e automação assistida
 - Sistemas embarcados
 - Robótica móvel
 - IoT e telemetria
