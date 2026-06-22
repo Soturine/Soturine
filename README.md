@@ -243,21 +243,25 @@ CLI local-first para preparar, reduzir, organizar e entregar contexto confiável
 
 ---
 
-### 💼 SotuHire — Copiloto local-first para carreira e busca de vagas
+### 💼 SotuHire — Copiloto local-first para carreira, vagas e candidaturas
 
-Assistente inteligente para ajudar pessoas a encontrar, analisar e se preparar melhor para vagas. O foco do projeto é combinar **currículo, descrição da vaga, compatibilidade ATS, palavras-chave, match score e recomendações práticas**, sem transformar a ferramenta em spam de candidaturas automáticas.
+Copiloto de carreira local-first para analisar currículos, comparar vagas, melhorar aderência ATS, descobrir oportunidades e acompanhar candidaturas. O projeto está na **v1.3.0** e já conta com core em Python, backend/API local, frontend moderno em React/Vite/TypeScript, Streamlit para modo local/dev e IA opcional.
 
-- Análise de currículo com foco em clareza, palavras-chave e compatibilidade ATS
-- Comparação entre CV e descrição de vaga com score, pontos fortes, gaps e recomendações
-- Sugestões de melhoria para currículo, perfil profissional e texto de candidatura
-- Radar de vagas públicas e oportunidades menos óbvias como evolução planejada
-- Dashboard e histórico para acompanhar análises, vagas e versões do currículo
-- Fluxo assistido: a IA recomenda, organiza e prepara; a decisão final continua com o usuário
-- Arquitetura pensada com regras de negócio claras, SOLID, Clean Code, QA e MVP sem overengineering
-- Projeto em evolução para atuar como um copiloto de carreira multiárea e generalista
+- Leitura de currículos em TXT, PDF e DOCX, com extração de experiências, formação, projetos, links e competências
+- Análise de vagas com Pontuação de Compatibilidade, ATS, Aderência, Confiança, Risco, gaps e palavras-chave ausentes
+- Resume Tailor com sugestões seguras, sem inventar experiências, cargos, certificados ou competências
+- Memória de carreira local, RAG local, histórico, tracker e dashboard para acompanhar vagas e candidaturas
+- Search Intelligence e Hidden Jobs Radar para apoiar descoberta de oportunidades públicas e menos óbvias
+- Extensão assistiva e Local Companion API para capturar vagas, importar candidaturas e analisar páginas autorizadas
+- GitHub Analyzer para transformar repositórios, READMEs, commits e portfólios públicos em evidências profissionais
+- FastAPI local em `/api/v1`, OpenAPI e integração com frontend moderno
+- Frontend em `apps/web` com React, Vite, TypeScript, TanStack Router, TanStack Query, Tailwind, Radix UI e Recharts
+- Modo Demo com dados fictícios e Modo API Real conectado ao backend local
+- Streamlit mantido como modo local/dev
+- Arquitetura modular, local-first, com Pydantic, pytest, Ruff, regras anti-invenção e foco em privacidade
+- Sem auto-apply, sem spam de candidaturas e sem contornar login, CAPTCHA ou checkpoints
 
-🔗 [Ver repositório](https://github.com/Soturine/sotuhire)
-
+🔗 [Ver repositório](https://github.com/Soturine/SotuHire)
 ---
 
 ### 📱 Scanora — Scanner de documentos para Android
