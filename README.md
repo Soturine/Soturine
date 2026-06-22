@@ -261,7 +261,8 @@ Copiloto de carreira local-first para analisar currículos, comparar vagas, melh
 - Arquitetura modular, local-first, com Pydantic, pytest, Ruff, regras anti-invenção e foco em privacidade
 - Sem auto-apply, sem spam de candidaturas e sem contornar login, CAPTCHA ou checkpoints
 
-🔗 [Ver repositório](https://github.com/Soturine/SotuHire)
+🔗 [Ver repositório](https://github.com/Soturine/Sotuhire)
+
 ---
 
 ### 📱 Scanora — Scanner de documentos para Android
