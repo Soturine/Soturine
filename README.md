@@ -2,9 +2,9 @@
 
 # Rafael Ryan Ramos de Souza 🦊
 
-### Técnico em Mecatrônica | Engenharia da Computação | Desenvolvedor em formação
+### Técnico em Mecatrônica | Engenharia da Computação | IA Aplicada, Full Stack e IoT
 
-**Mobile • Full Stack • IoT • Robótica • IA Aplicada • Sistemas Embarcados • Ferramentas para Devs • Música**
+**IA Aplicada • Full Stack • Python • TypeScript • React • FastAPI • IoT • Sistemas Embarcados • Saúde Digital • DevTools • Música**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Ryan%20Souza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelryansouza/)
 [![Spotify](https://img.shields.io/badge/Spotify-Soturine-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/intl-pt/artist/3l7S3LRvCbVM4qqD8zwQSG)
@@ -18,11 +18,11 @@
 
 Me chamo **Rafael Ryan Ramos de Souza**.
 
-Sou **Técnico em Mecatrônica** e curso **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Tenho interesse em criar projetos que misturam **software, hardware, automação, robótica, interfaces modernas e inteligência artificial**.
+Sou **Técnico em Mecatrônica** e curso **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Gosto de construir projetos práticos que conectam **software, inteligência artificial, automação, interfaces modernas, IoT, robótica e sistemas embarcados**.
 
-Gosto de transformar ideias em projetos práticos, conectando desenvolvimento de software, sistemas embarcados, IoT, IA aplicada, ferramentas para desenvolvedores e criatividade digital. Além da programação, mantenho um projeto musical como **Soturine**.
+Atualmente, meu foco está em **IA aplicada, produtos local-first, APIs, frontend moderno, automação assistida, agentes, ferramentas para desenvolvedores, carreira e saúde digital educacional**. Procuro desenvolver soluções com utilidade real, documentação clara, qualidade de código, testes, privacidade e escopo bem controlado.
 
-Atualmente, tenho focado em projetos de **IA aplicada, agentes, automação assistida e ferramentas local-first**, sempre tentando equilibrar utilidade real, qualidade de código, documentação, testes e escopo bem controlado.
+Também mantenho o projeto musical **Soturine**, conectando tecnologia, criatividade digital e produção musical.
 
 ---
 
@@ -243,25 +243,42 @@ CLI local-first para preparar, reduzir, organizar e entregar contexto confiável
 
 ---
 
-### 💼 SotuHire — Copiloto local-first para carreira, vagas e candidaturas
+### 💼 SotuHire — Copiloto local-first para carreira, vagas, editais e candidaturas
 
-Copiloto de carreira local-first para analisar currículos, comparar vagas, melhorar aderência ATS, descobrir oportunidades e acompanhar candidaturas. O projeto está na **v1.3.0** e já conta com core em Python, backend/API local, frontend moderno em React/Vite/TypeScript, Streamlit para modo local/dev e IA opcional.
+Copiloto de carreira **local-first, multiárea e baseado em evidências** para analisar currículos, comparar vagas, melhorar aderência ATS, descobrir oportunidades, acompanhar candidaturas e organizar o Perfil Profissional Universal da pessoa usuária. O projeto está na **v1.9.3**, com core em Python, API local em FastAPI, frontend moderno em React/Vite/TypeScript, RAG local, IA opcional e extensão assistiva.
 
-- Leitura de currículos em TXT, PDF e DOCX, com extração de experiências, formação, projetos, links e competências
-- Análise de vagas com Pontuação de Compatibilidade, ATS, Aderência, Confiança, Risco, gaps e palavras-chave ausentes
-- Resume Tailor com sugestões seguras, sem inventar experiências, cargos, certificados ou competências
-- Memória de carreira local, RAG local, histórico, tracker e dashboard para acompanhar vagas e candidaturas
-- Search Intelligence e Hidden Jobs Radar para apoiar descoberta de oportunidades públicas e menos óbvias
-- Extensão assistiva e Local Companion API para capturar vagas, importar candidaturas e analisar páginas autorizadas
-- GitHub Analyzer para transformar repositórios, READMEs, commits e portfólios públicos em evidências profissionais
-- FastAPI local em `/api/v1`, OpenAPI e integração com frontend moderno
+- Perfil Profissional Universal para objetivos, áreas, senioridade, localidades, modelos de trabalho, restrições e evidências revisáveis
+- Análise de currículo e vaga com Match, ATS, Tailor, gaps, palavras-chave ausentes, risco e recomendações explicáveis
 - Frontend em `apps/web` com React, Vite, TypeScript, TanStack Router, TanStack Query, Tailwind, Radix UI e Recharts
-- Modo Demo com dados fictícios e Modo API Real conectado ao backend local
-- Streamlit mantido como modo local/dev
-- Arquitetura modular, local-first, com Pydantic, pytest, Ruff, regras anti-invenção e foco em privacidade
-- Sem auto-apply, sem spam de candidaturas e sem contornar login, CAPTCHA ou checkpoints
+- Dashboard, Radar, Tracker/Kanban, Fontes, Notificações, GitHub/Portfólio, Perfil Acadêmico/Lattes e Editais/Concursos
+- API local em FastAPI, modo Demo, modo API Real e contrato OpenAPI para integração entre backend e frontend
+- RAG/Memória local, Career Context Engine, IA opcional com Gemini e fallback local quando não há provider externo
+- Radar, Wishlist, RSS/Atom público, capturas revisáveis e extensão assistiva via Local Companion API
+- GitHub/Portfólio e Lattes/acadêmico para transformar evidências públicas ou coladas em candidatos revisáveis
+- Fundação para editais e concursos com parser, checklist, Exam Fit Score e plano inicial de estudo
+- Regras anti-invenção, revisão humana obrigatória e privacidade: sem auto-apply, sem candidatura automática, sem CAPTCHA bypass e sem scraping autenticado
 
-🔗 [Ver repositório](https://github.com/Soturine/Sotuhire)
+🔗 [Ver repositório](https://github.com/Soturine/SotuHire)
+
+---
+
+### 🩺 Prescripta — Apoio educacional à prescrição segura
+
+Sistema web educacional de apoio à prescrição segura. A **v0.6.0** amplia a segurança clínica e adiciona uma camada de interoperabilidade demonstrativa baseada em **Ports & Adapters**, com importações clínicas revisáveis, consentimento, auditoria e CDS API. O projeto é demonstrativo/educacional e **não substitui avaliação profissional nem deve ser usado para decisões clínicas reais**.
+
+- Backend em FastAPI e frontend em React, com fluxo web para triagem, pacientes, medicamentos, importações e revisão clínica
+- Login JWT com perfis `admin`, `medico`, `enfermagem` e `auditor`
+- Catálogo farmacológico centrado em princípio ativo, produtos/aliases comerciais e busca por medicamento ou nome comercial
+- Motor determinístico de risco para alergia, dose, duração, dose acumulada, cautelas, interações, comorbidades e contexto clínico
+- Exposição medicamentosa com dose diária, dose acumulada, uso contínuo, duração máxima e monitoramento
+- Perfil farmacocinético/farmacodinâmico com mecanismo, metabolismo, eliminação e CYP
+- Importações clínicas FHIR/JSON/CSV/mock com consentimento, `pending_review`, aceite/rejeição e auditoria
+- Identificadores de paciente com hash/máscara e matching sem merge automático inseguro
+- CDS API demonstrativa em `POST /api/cds/prescription-check`
+- IA explicativa multi-provider com fallback determinístico, sem poder de alterar a decisão clínica
+- Roadmap preparado para integrações futuras oficiais, sem scraping, sem credenciais de paciente e sem prometer integração real sem parceria/API oficial
+
+🔗 [Ver repositório](https://github.com/Soturine/Prescripta)
 
 ---
 
@@ -343,6 +360,16 @@ Projetos acadêmicos de robótica móvel usando **ESP32, PlatformIO, ESP-IDF, se
 
 ---
 
+## ✅ Princípios de desenvolvimento
+
+- **Local-first e privacidade** sempre que possível, evitando dependência desnecessária de serviços externos
+- **IA como apoio**, com revisão humana, fallback local e regras para não inventar dados
+- **Clean Code, SOLID e QA**, sem overengineering no MVP
+- **Documentação e evidências** para explicar decisões, arquitetura, limites e próximos passos
+- **Automação responsável**, sem spam, scraping autenticado, bypass de CAPTCHA ou ações críticas sem confirmação humana
+
+---
+
 ## 🎵 Projeto musical — Soturine
 
 Além da programação, também produzo músicas usando o nome **Soturine**.
@@ -383,20 +410,18 @@ Além da programação, também produzo músicas usando o nome **Soturine**.
 
 ---
 
-## 🧠 Áreas que mais curto estudar
+## 🧠 Áreas de interesse
 
-- Desenvolvimento Android
-- Desenvolvimento Full Stack
-- Ferramentas para desenvolvedores e agentes de IA
-- IA aplicada a carreira, produtividade e automação assistida
-- Sistemas embarcados
-- Robótica móvel
-- IoT e telemetria
-- Banco de Dados
-- Inteligência Artificial
-- Jogos web e experiências interativas
-- UX/UI e interfaces modernas
-- Música, tecnologia e criatividade digital
+- Inteligência Artificial aplicada
+- Agentes, RAG, LLMs e automação assistida
+- Desenvolvimento Full Stack com Python, TypeScript, React e APIs
+- Produtos local-first, privacidade e ferramentas para desenvolvedores
+- Saúde digital educacional e sistemas de apoio à decisão
+- Carreira, vagas, ATS, portfólio e automação responsável
+- Desenvolvimento Android e interfaces modernas
+- Sistemas embarcados, IoT, telemetria e robótica móvel
+- Banco de Dados, documentação, QA e arquitetura de software
+- Jogos web, experiências interativas, música e criatividade digital
 
 ---
 
