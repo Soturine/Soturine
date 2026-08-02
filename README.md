@@ -223,16 +223,13 @@ Além da programação, produzo músicas e experimentos criativos usando o nome 
 ## 📊 Estatísticas
 
 <p align="center">
-  <img width="760" src="./assets/stats/profile-details.svg" alt="Resumo de atividade no GitHub" />
+  <img width="405" src="./assets/stats/profile-details.svg" alt="Resumo de atividade e evolução de commits no GitHub" />
+  <img width="195" src="./assets/stats/top-languages.svg" alt="Principais linguagens por repositório" />
+  <img width="195" src="./assets/stats/stats.svg" alt="Estatísticas gerais do GitHub" />
 </p>
 
 <p align="center">
-  <img width="370" src="./assets/stats/repos-per-language.svg" alt="Linguagens nos repositórios" />
-  <img width="370" src="./assets/stats/most-commit-language.svg" alt="Linguagens por contribuições" />
-</p>
-
-<p align="center">
-  <sub>Cards hospedados no próprio repositório e atualizados automaticamente pelo GitHub Actions.</sub>
+  <img width="310" src="./assets/stats/productive-time.svg" alt="Distribuição de commits por horário" />
 </p>
 
 ---
