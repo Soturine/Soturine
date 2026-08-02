@@ -1,39 +1,28 @@
 {
   "username": "Soturine",
   "display_name": "Rafael Ryan Ramos de Souza",
-  "public_repos": 16,
-  "followers": 12,
-  "following": 24,
-  "total_stars": null,
-  "total_forks": null,
-  "total_commits": null,
+  "location": "Jacareí, SP · Brasil",
+  "joined_year": "2020",
+  "public_repos": 13,
+  "followers": 11,
+  "total_stars": 19,
+  "total_forks": 5,
+  "total_commits": 1106,
+  "contributed_repos": 9,
   "repo_language_counts": {
-    "TypeScript": 4,
-    "Python": 2,
+    "Python": 3,
     "JavaScript": 2,
+    "TypeScript": 2,
     "C": 2,
-    "Kotlin": 1,
     "Lua": 1,
+    "Kotlin": 1,
     "Prolog": 1,
-    "Outros": 3
+    "HTML": 1
   },
-  "language_bytes": {
-    "TypeScript": 32,
-    "Python": 25,
-    "JavaScript": 14,
-    "C": 10,
-    "Kotlin": 8,
-    "Lua": 6,
-    "Prolog": 5
-  },
-  "commit_languages": {
-    "TypeScript": 30,
-    "Python": 27,
-    "JavaScript": 15,
-    "C": 11,
-    "Kotlin": 8,
-    "Lua": 5,
-    "Prolog": 4
-  },
-  "source_note": "Dados iniciais · execute o workflow para sincronizar"
+  "monthly_labels": [
+    "2025-09", "2025-10", "2025-11", "2025-12",
+    "2026-01", "2026-02", "2026-03", "2026-04",
+    "2026-05", "2026-06", "2026-07", "2026-08"
+  ],
+  "monthly_commits": [25, 35, 20, 60, 55, 95, 80, 120, 110, 145, 130, 231]
 }
