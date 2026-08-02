@@ -228,10 +228,6 @@ Além da programação, produzo músicas e experimentos criativos usando o nome 
   <img width="195" src="./assets/stats/stats.svg" alt="Estatísticas gerais do GitHub" />
 </p>
 
-<p align="center">
-  <img width="310" src="./assets/stats/productive-time.svg" alt="Distribuição de commits por horário" />
-</p>
-
 ---
 
 ## 🎮 Contribuições
