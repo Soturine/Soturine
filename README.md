@@ -223,9 +223,12 @@ Além da programação, produzo músicas e experimentos criativos usando o nome 
 ## 📊 Estatísticas
 
 <p align="center">
-  <img width="405" src="./assets/stats/profile-details.svg" alt="Resumo de atividade e evolução de commits no GitHub" />
-  <img width="195" src="./assets/stats/top-languages.svg" alt="Principais linguagens por repositório" />
-  <img width="195" src="./assets/stats/stats.svg" alt="Estatísticas gerais do GitHub" />
+  <img width="760" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soturine&theme=tokyonight" alt="Resumo de atividade no GitHub" />
+</p>
+
+<p align="center">
+  <img width="370" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Soturine&theme=tokyonight" alt="Repositórios por linguagem" />
+  <img width="370" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Soturine&theme=tokyonight" alt="Linguagens com mais commits" />
 </p>
 
 ---
