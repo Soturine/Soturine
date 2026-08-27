@@ -14,9 +14,9 @@
 
 ## 👨‍💻 Perfil
 
-Sou **Técnico em Mecatrônica** e graduando em **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Desenvolvo projetos que conectam software, inteligência artificial, interfaces modernas, automação, IoT, robótica e sistemas embarcados.
+Sou **Técnico em Mecatrônica** e graduando em **Engenharia da Computação na Universidade do Vale do Paraíba (UNIVAP)**. Desenvolvo produtos e projetos que conectam software, inteligência artificial, interfaces, automação, IoT, robótica e sistemas embarcados.
 
-Meu foco atual está em **produtos full stack**, ferramentas local-first, engenharia de contexto para agentes de IA, automação responsável, segurança, auditabilidade e sistemas de apoio à decisão. Procuro transformar ideias em produtos demonstráveis, com documentação, testes, limites explícitos e evidências técnicas.
+Meu foco atual está em **produtos full stack**, IA aplicada com revisão humana e regras verificáveis, ferramentas local-first para engenharia de software, aplicações mobile e sistemas que exigem segurança, auditabilidade e evidências técnicas. Procuro transformar ideias em produtos demonstráveis, com arquitetura clara, testes, documentação, limites explícitos e entrega reproduzível.
 
 ---
 
@@ -32,46 +32,37 @@ Meu foco atual está em **produtos full stack**, ferramentas local-first, engenh
 
 ## 🚀 Projetos principais
 
-### 💼 SotuHire — Plataforma local-first para carreira, vagas, editais e candidaturas
+### 💼 SotuHire — Copiloto de carreira local-first com aprovação humana
 
 [![Release](https://img.shields.io/github/v/release/Soturine/SotuHire?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/SotuHire/releases)
 [![CI](https://github.com/Soturine/SotuHire/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/SotuHire/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/SotuHire/blob/main/LICENSE)
 
-Produto full stack, multiárea e baseado em evidências para organizar trajetória profissional, analisar currículos e vagas, melhorar aderência ATS, preparar candidaturas, interpretar editais e acompanhar oportunidades sem transformar decisões importantes em automação cega.
+Plataforma full stack para representar o estado da carreira, organizar evidências e transformar recomendações em ações revisáveis sem entregar decisões importantes a uma automação opaca.
 
-- **Application Lab** persistente para readiness, estratégia, variantes, kits e snapshots de candidatura
-- **Resume Studio** com Currículo Mestre, editor, autosave, diff, templates ATS-safe, preview e JSON Resume
-- Perfil Profissional Universal, Match, ATS, Tailor, Radar, Wishlist, Tracker/Kanban e notificações
-- Lattes/acadêmico, Editais/Concursos, GitHub/Portfólio e fontes públicas revisáveis
-- Backend local em **Python/FastAPI** e frontend em **React, Vite e TypeScript**
-- RAG/memória local, Career Context Engine e IA opcional com Gemini/OpenAI e fallback local
-- Extensão assistiva com captura revisável, fila offline e integração pela Local Companion API
-- Governança de prompts, structured output, benchmarks, golden datasets, feedback humano e rastreabilidade de execuções de IA
-- Sem auto-apply, inscrição automática, pagamento, bypass de CAPTCHA ou promoção de evidência não confirmada a fato
+- **Evidence Inbox + Evidence Graph** tipado, com proveniência, revisão e estados explícitos de evidência
+- **Career State + Next Best Actions** determinísticos e **Career Copilot** que propõe ações com preview, impacto, aprovação individual, audit e undo
+- Application Lab, Resume Studio, portfólio multidisciplinar, Lattes/acadêmico, editais, Tracker e extensão Chrome integrada ao Local Companion
+- **FastAPI/Pydantic + React/TypeScript + SQLite**, providers de IA opcionais e contexto mínimo; sem auto-apply, login automatizado, pagamento ou bypass de CAPTCHA
+- Release v2 validada com **661 testes backend, 86% de coverage**, testes web/E2E cross-browser, CodeQL, auditorias e SBOM
 
 🔗 [Repositório](https://github.com/Soturine/SotuHire) • [Documentação](https://soturine.github.io/SotuHire/)
 
 ---
 
-### 🩺 Prescripta — Segurança de medicamentos e decisão auditável
+### 🩺 Prescripta — Medication Safety, Evidence Intelligence e Research & RWE
 
 [![Release](https://img.shields.io/github/v/release/Soturine/Prescripta?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/Prescripta/releases)
 [![CI](https://github.com/Soturine/Prescripta/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/Prescripta/actions/workflows/ci.yml)
 [![Security](https://github.com/Soturine/Prescripta/actions/workflows/security.yml/badge.svg)](https://github.com/Soturine/Prescripta/actions/workflows/security.yml)
 
-Aplicação demonstrativa e educacional para tornar explícitos dados clínicos fictícios, regras determinísticas, cobertura, dados ausentes, fontes, revisão humana, relatórios e auditoria em uma arquitetura **FastAPI + React**.
+Plataforma demonstrativa e educacional de healthtech organizada em três pilares, com regras determinísticas, fontes rastreáveis, revisão humana, auditoria e dados exclusivamente fictícios.
 
-- Envelope canônico de decisão com cobertura, achados, fontes, dados faltantes e abstention
-- Dose dimensional para massa, frequência, taxa, infusão, procedimento e exposição acumulada
-- Catálogo demonstrativo por princípio ativo, produto, aliases, jurisdição, versão e status de revisão
-- Autorização por instituição, papel e escopo de paciente, com auditoria de acessos negados
-- Snapshots imutáveis, hash de JSON canônico e relatórios históricos reproduzíveis
-- Reconciliação de importações com consentimento e decisão humana por item
-- Override governado com justificativa e segundo revisor independente
-- Cookie HttpOnly, lockout persistente, MFA TOTP opcional e startup seguro fora do modo local
-- IA explicativa opcional, credenciais criptografadas, proteção SSRF, circuit breaker e fallback determinístico
-- Alembic, PostgreSQL em CI, testes automatizados, SAST/SCA, secret scan e SBOM
+- **Medication Safety:** dose dimensional, cobertura, abstention, protocolos, reconciliação e revisão farmacêutica com decisão humana
+- **Evidence Intelligence:** fontes versionadas, proveniência, recuperação educacional, relatórios auditáveis e IA limitada a explicação/propostas
+- **Research & RWE:** estudos sintéticos, coortes, attrition, qualidade de dados, Table 1, SMD e métodos experimentais aggregate-first
+- Interoperabilidade demonstrativa e delimitada com subset **FHIR R4 JSON** e adapter parcial **OMOP CDM 5.4**, sem alegar integração hospitalar certificada
+- **FastAPI + React + PostgreSQL/Alembic**, autorização por capacidade/objeto, snapshots imutáveis, hashes canônicos, Docker, CI, SAST/SCA, secret scan e SBOM
 
 > Projeto de portfólio e pesquisa. **Não é dispositivo médico, não possui validação clínica/regulatória e não deve ser usado em atendimento real.**
 
@@ -79,25 +70,73 @@ Aplicação demonstrativa e educacional para tornar explícitos dados clínicos 
 
 ---
 
-### 🚆 SotuRail — Context OS local-first para agentes de programação
+### 🚆 SotuRail — Verified engineering control plane para trabalho assistido por IA
 
-[![npm](https://img.shields.io/npm/v/soturail?style=flat-square&label=npm)](https://www.npmjs.com/package/soturail)
+[![Release](https://img.shields.io/github/v/release/Soturine/soturail?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/soturail/releases)
 [![CI](https://github.com/Soturine/soturail/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/soturail/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/soturail/blob/main/LICENSE)
 
-CLI open source para preparar conhecimento compacto, evidências, workflows, relatórios e exports seguros para agentes de programação, mantendo os artefatos locais e sem se tornar um agente autônomo ou gateway obrigatório.
+Ferramenta local-first para fornecer contexto verificável, contratos, readiness, evidências e artefatos reproduzíveis a fluxos de engenharia assistidos por IA, sem se tornar um agente autônomo ou servidor obrigatório.
 
-- Context e Project Brain para leitura progressiva, memória, claims verificáveis e briefs
-- Knowledge e Evidence Rails com proveniência, verificação e estados honestos
-- Evaluation, golden checks, Skills 2.0 e datasets determinísticos
-- Workflow/Harness, tasklets, handoffs e coordenação segura de tarefas
-- Relatórios, dashboard estático, observabilidade e exports redigidos para agentes
-- Contratos de schema, readiness gates, baselines e evidência de release
-- Suporte a hosts compatíveis com Codex, Claude, Cursor, Gemini e consumidores genéricos
-- **TypeScript/Node.js** como base portátil e aceleração nativa opcional em **Rust**
-- Sem telemetria obrigatória, chamadas externas de LLM, embeddings pagos ou reescrita autônoma de código
+- **WorkspaceGuard**, Artifact Registry/Store/Envelope, fingerprints de workspace e recuperação atômica
+- **Change Contracts**, capability registry, Authority Gate + Readiness Gate e Execution Envelope vinculado ao digest exato avaliado
+- Contexto progressivo, conhecimento e evidências com proveniência, freshness e estados explícitos de verificação
+- MCP tipado com superfície pequena e mapeada por capacidades, sem expor shell arbitrário ou autorização de raw logs pelo caller
+- Base portátil em **TypeScript/Node.js** com Rust opcional; release v1.5 validada com **159/159 testes**, CI Linux/macOS/Windows, CodeQL, audit, SBOM e checksums
 
-🔗 [Repositório](https://github.com/Soturine/soturail) • [npm](https://www.npmjs.com/package/soturail)
+🔗 [Repositório](https://github.com/Soturine/soturail) • [Releases](https://github.com/Soturine/soturail/releases)
+
+---
+
+### 🎨 GLSketch Studio — Editor visual OpenGL com código bidirecional
+
+[![Release](https://img.shields.io/github/v/release/Soturine/glsketch-studio?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/glsketch-studio/releases)
+[![License](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](https://github.com/Soturine/glsketch-studio/blob/main/LICENSE)
+
+Editor desktop 2D que permite desenhar visualmente enquanto o código Python/PyOpenGL é atualizado nos dois sentidos, mantendo o canvas e a exportação baseados em OpenGL.
+
+- Canvas **QOpenGLWidget + PyOpenGL** com grid, snap, zoom, pan, seleção, resize e edição por vértices
+- Formas, lápis, texto, preenchimento/borda, layers, referência por textura OpenGL, undo/redo e projetos `.glsketch`
+- Sincronização bidirecional entre cena e código Legacy OpenGL com **parser AST seguro**, diagnósticos e preservação da última cena válida
+- Exportação Python/OpenGL, preview GLUT em subprocesso isolado e distribuição portátil para Windows
+- Release v1.0.0 validada com **49 testes**, Ruff, CI Linux/Windows e smokes reais da UI e do preview GLUT
+
+🔗 [Repositório](https://github.com/Soturine/glsketch-studio) • [Release v1.0.0](https://github.com/Soturine/glsketch-studio/releases/tag/v1.0.0)
+
+---
+
+## ⚙️ Engenharia aplicada
+
+### 📱 Scanora — Scanner Android local-first
+
+[![Release](https://img.shields.io/github/v/release/Soturine/scanora?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/scanora/releases)
+[![Android CI](https://github.com/Soturine/scanora/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Soturine/scanora/actions/workflows/android-ci.yml)
+
+Aplicativo Android de digitalização de documentos com câmera própria, processamento local, OCR no dispositivo, busca por conteúdo e exportação de arquivos pesquisáveis.
+
+- Scanner **CameraX** como fluxo principal, com detecção ao vivo, foco por toque, flash e lote multipágina; ML Kit Document Scanner como alternativa assistida
+- Detector perspectivo multi-escala, crop automático/manual e pipeline unificado para preview, filtros, OCR e exportação
+- OCR local com artefatos persistidos, **Room FTS** para título/tags/conteúdo e exportação em PDF pesquisável, JPG e PNG
+- Interface em **12 idiomas**, incluindo RTL real no árabe, com Jetpack Compose, Material 3, Room, DataStore e WorkManager
+- Android CI, CodeQL e testes instrumentados; sem backend obrigatório, login ou sincronização em nuvem no MVP
+
+🔗 [Repositório](https://github.com/Soturine/scanora) • [Site](https://soturine.github.io/scanora/)
+
+---
+
+### 🧓 Sistema IoT de Detecção de Quedas
+
+[![Release](https://img.shields.io/github/v/release/Soturine/iot-fall-monitor?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/iot-fall-monitor/releases)
+
+Projeto acadêmico full stack que integra **ESP32 + MPU6050**, MQTT, Node.js, MySQL, Socket.IO e React para monitorar quedas, imobilidade e telemetria com evidência física de bancada.
+
+- Detecção local conservadora com impacto, mudança de orientação e imobilidade antes de confirmar uma queda
+- Pareamento de dispositivos, organizações, pacientes, papéis e histórico de vínculos em dashboard multi-tenant
+- Eventos MQTT críticos com identidade, fila local, deduplicação, correlação e evidência estruturada no backend
+- Telemetria em tempo real, alertas, diagnóstico operacional, modos Normal/Demo e calibração experimental de bateria por tempo
+- Release v0.9.0 documentada com ESP32 real, MQTT, backend e frontend operando, além de suites unitárias, integração e ingestão MQTT
+
+🔗 [Repositório](https://github.com/Soturine/iot-fall-monitor)
 
 ---
 
@@ -106,54 +145,15 @@ CLI open source para preparar conhecimento compacto, evidências, workflows, rel
 [![Release](https://img.shields.io/github/v/release/Soturine/beamng-soturine-chaos-randomizer?include_prereleases&sort=semver&style=flat-square&label=prerelease)](https://github.com/Soturine/beamng-soturine-chaos-randomizer/releases)
 [![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/beamng-soturine-chaos-randomizer/blob/main/LICENSE)
 
-UI App experimental que monta veículos inesperados usando o conteúdo carregado no BeamNG.drive, com randomização limitada e rastreável de configurações, peças, tuning e pintura.
+UI App experimental para randomização determinística de veículos, captura/restauração de Vehicle DNA e orquestração de eventos com múltiplos veículos dentro do BeamNG.drive.
 
-- Modos **Random Car**, **Scramble** e **Full Random** em operações transacionais
-- Seeds reproduzíveis, locks, histórico, cancelamento, recovery e classificações honestas de resultado
-- **Vehicle DNA**, garagem local, comparação, restore, replay, mutações e exportação/importação validada
-- Geração de competidores, posicionamento, grids, corrida e modos de IA suportados
-- Descoberta dinâmica de veículos, configurações, slots, peças, rodas, tuning e energia
-- Proteções para peças críticas, combustível, fluidos, callbacks atrasados e estados parciais
-- Empacotamento versionado com checksum, manifesto e evidências automatizadas
-- Compatibilidade principal voltada ao BeamNG 0.39, com validação presencial no jogo registrada separadamente
+- Modos **Random Car**, **Scramble** e **Full Random** com seeds reproduzíveis, locks, cancelamento, recovery e resultados rastreáveis
+- **Vehicle DNA** com garagem local, comparação, restore, replay, mutações e importação/exportação validada
+- Área **Events** com competidores, grids, posicionamento e presets de IA como Follow, Convoy, Chase, Flee, Traffic, Roam e Swarm
+- Empacotamento versionado com checksum, manifesto e validação automatizada; compatibilidade alvo com BeamNG 0.39
+- Estado de validação mantido de forma explícita: **automação aprovada; validação presencial no jogo permanece separada e não é inferida pela CI**
 
 🔗 [Repositório](https://github.com/Soturine/beamng-soturine-chaos-randomizer) • [Releases](https://github.com/Soturine/beamng-soturine-chaos-randomizer/releases)
-
----
-
-## ⚙️ Engenharia aplicada
-
-### 🧓 Sistema IoT de Detecção de Quedas
-
-[![Release](https://img.shields.io/github/v/release/Soturine/iot-fall-monitor?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/iot-fall-monitor/releases)
-
-Projeto acadêmico full stack que integra **ESP32 + MPU6050**, MQTT, backend Node.js, MySQL, Socket.IO e frontend React para monitorar quedas, imobilidade e telemetria.
-
-- Detecção local conservadora com impacto, orientação e imobilidade
-- Pareamento de dispositivos, organizações, pacientes, papéis e histórico de vínculos
-- Eventos MQTT idempotentes, deduplicação, fila local, correlação e evidência estruturada
-- Dashboard multi-tenant, telemetria em tempo real, alertas e diagnóstico operacional
-- Modos Normal e Demo, calibração, testes, stress dry-run e registros reais do sistema em bancada
-
-🔗 [Repositório](https://github.com/Soturine/iot-fall-monitor)
-
----
-
-### 📱 Scanora — Scanner Android local-first
-
-[![Release](https://img.shields.io/github/v/release/Soturine/scanora?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/scanora/releases)
-[![Android CI](https://github.com/Soturine/scanora/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Soturine/scanora/actions/workflows/android-ci.yml)
-
-Aplicativo Android para digitalização de documentos com processamento local, OCR no dispositivo e fluxo unificado entre captura, revisão e exportação.
-
-- Kotlin, Jetpack Compose, Material 3, Coroutines e Flow
-- ML Kit Document Scanner, Text Recognition e CameraX
-- Pipeline único para crop, filtros, preview, OCR e arquivo final
-- Exportação em PDF, JPG e PNG, compartilhamento e histórico local
-- Room, DataStore, WorkManager e arquitetura modular por features
-- Sem backend obrigatório, login ou sincronização no MVP
-
-🔗 [Repositório](https://github.com/Soturine/scanora) • [Site](https://soturine.github.io/scanora/)
 
 ---
 
@@ -175,6 +175,10 @@ Aplicativo Android para digitalização de documentos com processamento local, O
 
 `Python` `TypeScript` `JavaScript` `React` `FastAPI` `Node.js` `REST APIs` `SQL`
 
+### Desktop e computação gráfica
+
+`PySide6` `PyOpenGL` `QOpenGLWidget` `GLUT`
+
 ### Mobile
 
 `Kotlin` `Jetpack Compose` `Material 3` `CameraX` `ML Kit` `Room` `DataStore` `WorkManager`
@@ -185,7 +189,7 @@ Aplicativo Android para digitalização de documentos com processamento local, O
 
 ### Dados, qualidade e entrega
 
-`PostgreSQL` `MySQL` `MongoDB` `SQLite` `Pydantic` `pytest` `Ruff` `Vitest` `Playwright` `GitHub Actions` `SAST/SCA` `SBOM` `npm`
+`PostgreSQL` `MySQL` `MongoDB` `SQLite` `Docker` `Pydantic` `pytest` `Ruff` `Pyright` `Vitest` `Playwright` `GitHub Actions` `CodeQL` `SAST/SCA` `SBOM` `npm`
 
 ### Experiência complementar
 
@@ -196,11 +200,11 @@ Aplicativo Android para digitalização de documentos com processamento local, O
 ## ✅ Princípios de desenvolvimento
 
 - **Local-first e privacidade**, reduzindo dependências externas desnecessárias
-- **IA como apoio**, com structured output, revisão humana, fallback e rastreabilidade
-- **Evidências antes de claims**, diferenciando o que foi testado, inferido ou ainda está pendente
-- **Segurança proporcional ao domínio**, especialmente em saúde, dados pessoais e automações
-- **Arquitetura clara e testes úteis**, sem transformar MVP em overengineering
-- **Documentação atual**, com limites, riscos conhecidos e próximos passos explícitos
+- **IA como apoio**, com regras determinísticas quando críticas, structured output, revisão humana, fallback e rastreabilidade
+- **Evidências antes de claims**, diferenciando o que foi testado, inferido, bloqueado ou ainda está pendente
+- **Segurança proporcional ao domínio**, com autorização, gestão de secrets, supply chain e threat modeling quando aplicáveis
+- **Arquitetura clara e testes úteis**, com integração/E2E e validação real quando o comportamento depende de hardware ou runtime externo
+- **Entrega reproduzível**, com CI/CD, artefatos versionados, checksums, SBOM/proveniência e documentação de limites
 - **Automação responsável**, sem spam, auto-apply, bypass ou ações críticas sem confirmação
 
 ---
