@@ -52,7 +52,7 @@ Plataforma full stack para representar o estado da carreira, organizar evidênci
 
 ### 🩺 Prescripta — Medication Safety, Evidence Intelligence e Research & RWE
 
-[![Release](https://img.shields.io/github/v/release/Soturine/Prescripta?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/Prescripta/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.0-0891b2?style=flat-square)](https://github.com/Soturine/Prescripta/releases/tag/v1.0.0)
 [![CI](https://github.com/Soturine/Prescripta/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/Prescripta/actions/workflows/ci.yml)
 [![Security](https://github.com/Soturine/Prescripta/actions/workflows/security.yml/badge.svg)](https://github.com/Soturine/Prescripta/actions/workflows/security.yml)
 
