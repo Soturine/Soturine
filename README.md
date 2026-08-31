@@ -107,10 +107,10 @@ Editor desktop 2D que permite desenhar visualmente enquanto o código Python/PyO
 
 ## ⚙️ Engenharia aplicada
 
-### 📱 Scanora — Scanner Android local-first
+### 📱 ReplicaScan — Scanner Android local-first
 
-[![Release](https://img.shields.io/github/v/release/Soturine/scanora?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/scanora/releases)
-[![Android CI](https://github.com/Soturine/scanora/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Soturine/scanora/actions/workflows/android-ci.yml)
+[![Release](https://img.shields.io/github/v/release/Soturine/replicascan?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/replicascan/releases)
+[![Android CI](https://github.com/Soturine/replicascan/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Soturine/replicascan/actions/workflows/android-ci.yml)
 
 Aplicativo Android de digitalização de documentos com câmera própria, processamento local, OCR no dispositivo, busca por conteúdo e exportação de arquivos pesquisáveis.
 
@@ -120,7 +120,7 @@ Aplicativo Android de digitalização de documentos com câmera própria, proces
 - Interface em **12 idiomas**, incluindo RTL real no árabe, com Jetpack Compose, Material 3, Room, DataStore e WorkManager
 - Android CI, CodeQL e testes instrumentados; sem backend obrigatório, login ou sincronização em nuvem no MVP
 
-🔗 [Repositório](https://github.com/Soturine/scanora) • [Site](https://soturine.github.io/scanora/)
+🔗 [Repositório](https://github.com/Soturine/replicascan) • [Site](https://soturine.github.io/replicascan/)
 
 ---
 
