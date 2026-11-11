@@ -2,157 +2,339 @@
 
 # Rafael Ryan Ramos de Souza 🦊
 
-**Analista de Desenvolvimento • Técnico em Mecatrônica • Graduando em Engenharia da Computação (UNIVAP)**
+### Analista de Desenvolvimento | Técnico em Mecatrônica | Graduando em Engenharia da Computação
 
-Software full stack · Python/Django · TypeScript/React · Qualidade de software · IA aplicada · Android · IoT
+**Python • Django • FastAPI • TypeScript • React • QA/QE • IA Aplicada • Android • IoT • DevTools**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelryansouza/)
-[![GitHub](https://img.shields.io/badge/GitHub-Soturine-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Soturine)
-
-**Construo aplicações e ferramentas que conectam software, automação e engenharia — com testes, evidências e limites explícitos.**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rafael%20Ryan%20Souza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelryansouza/)
 
 </div>
 
 ---
 
-## 👋 Sobre mim
+## 👨‍💻 Perfil
 
-Sou técnico em Mecatrônica e estudante de Engenharia da Computação na **UNIVAP**. Atuo profissionalmente com desenvolvimento de software e mantenho projetos independentes em **backend, full stack, ferramentas para desenvolvedores, qualidade de software, aplicativos Android e sistemas embarcados/IoT**.
+Sou **Técnico em Mecatrônica**, graduando em **Engenharia da Computação na UNIVAP** e atuo como **Analista de Desenvolvimento**. Desenvolvimento de software, sistemas embarcados e automação são áreas que conecto em projetos independentes.
 
-Gosto de trabalhar do problema até a entrega: requisitos, arquitetura, implementação, testes, diagnóstico, documentação e evolução. Em projetos com IA, priorizo avaliação reproduzível, proveniência, regras verificáveis e revisão humana quando há decisões sensíveis.
-
-> **Como leio qualidade:** um teste aprovado não comprova, sozinho, que o requisito está correto; uma demo não equivale a produção; e um recurso planejado não deve aparecer como implementado.
-
-## 💼 Experiência profissional
-
-| Período | Experiência | Foco |
-| --- | --- | --- |
-| **Set/2026 – atual** | **Analista de Desenvolvimento · Proxion** | Desenvolvimento e manutenção de soluções de software, integrações, análise de requisitos, investigação de problemas e colaboração em fluxos ágeis. Atuação com tecnologias como Python/Django, PostgreSQL e Node-RED. |
-| **2023 – 2025** | **Embraer · Produção industrial** | Processos, execução técnica, qualidade, rastreabilidade, segurança e trabalho em equipe em ambiente industrial. |
-| **2022 – 2023** | **Embraer · Estágio em Ensaios Estruturais e Instrumentação** | Instrumentação, ensaios, observação de resultados e disciplina de engenharia. |
-
-*As descrições profissionais são deliberadamente gerais: projetos, regras de negócio, dados e sistemas internos de empregadores não são reproduzidos neste perfil.*
+Meu foco atual está em **Python/Django, backend e produtos full stack**, ferramentas de engenharia e qualidade de software, agentes de IA com evidência verificável e soluções Android/IoT. Trabalho com requisitos, arquitetura, implementação, testes, diagnóstico, documentação e evolução de sistemas — distinguindo funcionalidades entregues de protótipos e pesquisa.
 
 ---
 
-## 🚀 Projetos em destaque
+## 🏭 Experiência profissional
 
-### 💼 [SotuHire](https://github.com/Soturine/SotuHire) — carreira, evidências e ações aprovadas
+### 💻 Proxion — Analista de Desenvolvimento | Setembro/2026 – atual
 
-**Full stack · FastAPI/Pydantic · React/TypeScript · SQLite · Extensão Chrome · IA opcional**  
-[Release v2.0](https://github.com/Soturine/SotuHire/releases/tag/v2.0) · [Documentação](https://soturine.github.io/SotuHire/)
+- Desenvolvimento e manutenção de soluções de software, integrações e fluxos de automação
+- Atuação com **Python/Django, PostgreSQL e Node-RED**, análise de requisitos e investigação de problemas
+- Colaboração em processos ágeis e acompanhamento de demandas e qualidade de entregas
 
-Copiloto de carreira *local-first* que reúne perfil, currículo, portfólio, oportunidades e candidaturas. Um **Evidence Graph** mantém proveniência e estados de revisão; sugestões da IA passam por **prévia, impacto, aprovação humana, auditoria e possibilidade de desfazer** antes de alterações importantes.
+### ✈️ Embraer
 
-Demonstra arquitetura de produto, API, interface, persistência, extensão de navegador, testes de integração/E2E e decisões explícitas de privacidade.
+- **Estágio técnico em Ensaios Estruturais e Instrumentação — 2022 a 2023**
+- **Atuação profissional na produção — 2023 a 2025**
+- Experiência em ambiente industrial, processos, instrumentação, qualidade, segurança e trabalho em equipe
 
-<details>
-<summary>Ver demonstração do SotuHire</summary>
-
-![Demonstração do SotuHire v2](https://raw.githubusercontent.com/Soturine/SotuHire/main/docs/assets/screenshots/sotuhire-v2-human-approved-career-copilot.gif)
-
-</details>
-
-### 🩺 [Prescripta](https://github.com/Soturine/Prescripta) — healthtech educacional com decisões auditáveis
-
-**FastAPI · React · PostgreSQL/Alembic · Segurança · QA · Dados sintéticos**  
-[Release v1.1.0](https://github.com/Soturine/Prescripta/releases/tag/v1.1.0) · [Auditoria da v1.1.0](https://github.com/Soturine/Prescripta/tree/main/docs/audits/2026-11-prescripta-assurance)
-
-Plataforma demonstrativa para **Medication Safety, Evidence Intelligence e Research/RWE**, com regras determinísticas, trilhas de auditoria, controle de acesso, fontes versionadas, contratos explícitos e revisão humana. A v1.1.0 reúne correções verificadas em autorização, consistência de decisões, sessão, concorrência, segurança e testes de mutação.
-
-**Limite essencial:** projeto educacional com dados fictícios. Não possui validação clínica/regulatória e **não deve ser usado para atendimento ou decisão médica real**. Interoperabilidade FHIR/OMOP é parcial e demonstrativa.
-
-### 🚆 [SotuRail](https://github.com/Soturine/soturail) — engenharia verificável ao lado de agentes de IA
-
-**TypeScript · Node.js · CLI · MCP · Evidências e proveniência**  
-[Release v1.6.1](https://github.com/Soturine/soturail/releases/tag/v1.6.1) · [Pacote npm](https://www.npmjs.com/package/soturail)
-
-Ferramenta *local-first* que conecta agentes de código a **capabilities, contexto de workspace, contratos de mudança, gates de readiness e evidências verificáveis**. O agente interpreta e propõe; o mecanismo verifica as condições objetivas antes de considerar uma mudança pronta. Distribuído como pacote npm, com documentação, testes e integração MCP.
-
-### 🛡️ [Assertiva](https://github.com/Soturine/Assertiva) — inteligência para qualidade de testes
-
-**Python · Test Quality · Mutation Testing · CI/CD · Agent Skill**  
-[Release v0.10.1](https://github.com/Soturine/Assertiva/releases/tag/v0.10.1) · [Exemplo de evidência](https://github.com/Soturine/Assertiva/blob/main/docs/PROOF_OF_PROTECTION.md)
-
-Audita se uma suíte de testes oferece evidência útil, seleciona testes relevantes, investiga falhas e qualifica gaps de verificação. Combina análise assistida por agente com **execução real em cópia isolada**, inspeção de CI e testes de mutação quando há adaptadores e ferramentas compatíveis. A v0.10.1 corrige falhas identificadas por rodadas reais de *dogfood*.
-
-O projeto fornece artefatos instaláveis na release do GitHub; **não está publicado no PyPI**. A cobertura de ecossistemas depende dos adaptadores disponíveis, não apenas da arquitetura declarada.
-
-### 🧪 [Functional Test Designer](https://github.com/Soturine/functional-test-designer) — casos de teste rastreáveis
-
-**Agent Skill · QA Funcional · Requisitos · JSON/HTML/Markdown · Azure DevOps**  
-[Release v2.5.0](https://github.com/Soturine/functional-test-designer/releases/tag/v2.5.0) · [Guia em português](https://github.com/Soturine/functional-test-designer/blob/main/README.pt-BR.md)
-
-Gera casos de teste com **origem rastreável nos requisitos e documentos selecionados**, registrando dúvidas e lacunas em vez de inventar resultados esperados. Entrega uma suíte canônica em JSON e relatórios navegáveis; a preparação para Azure DevOps é separada de qualquer publicação externa, que exige aprovação explícita.
-
-### 🎨 [GLSketch Studio](https://github.com/Soturine/glsketch-studio) — desenho e código OpenGL bidirecionais
-
-**Python · PySide6 · PyOpenGL · AST · Desktop Windows**  
-[Release v1.3.0](https://github.com/Soturine/glsketch-studio/releases/tag/v1.3.0) · [Executável portátil para Windows](https://github.com/Soturine/glsketch-studio/releases/tag/v1.3.0)
-
-Editor desktop com canvas OpenGL, ferramentas de desenho, camadas e sincronização entre cena visual e código Python/PyOpenGL. Inclui parser AST controlado, histórico de edição, exportação e *preview* isolado.
-
-![Interface do GLSketch Studio](https://raw.githubusercontent.com/Soturine/glsketch-studio/main/docs/assets/glsketch-studio.png)
+*As descrições profissionais são gerais e não expõem produtos, dados, clientes ou sistemas internos de empregadores.*
 
 ---
 
-## 🧰 Outras ferramentas de engenharia e IA
+## 🚀 Projetos principais
 
-| Projeto | O que demonstra | Estado |
-| --- | --- | --- |
-| [**QE Engineering Skill**](https://github.com/Soturine/qe-engineering-skill) | Skill de engenharia de qualidade *manual-first*: inventário, riscos, oráculos, proveniência e desenho de testes | Base implementada; sem release publicada |
-| [**VozNativa**](https://github.com/Soturine/VozNativa) | Engine e Agent Skill para reescrita em PT-BR, com preservação de restrições semânticas e avaliação | [v0.8.0.dev0](https://github.com/Soturine/VozNativa/releases/tag/v0.8.0.dev0), **pré-release**, não publicado no PyPI |
+### 💼 SotuHire — Copiloto de carreira local-first com aprovação humana
 
-## 📱 Android, IoT e sistemas embarcados
+[![Release](https://img.shields.io/github/v/release/Soturine/SotuHire?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/SotuHire/releases)
+[![CI](https://github.com/Soturine/SotuHire/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/SotuHire/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/SotuHire/blob/main/LICENSE)
 
-| Projeto | O que demonstra | Estado |
-| --- | --- | --- |
-| [**ReplicaScan**](https://github.com/Soturine/replicascan) | Scanner Android *local-first*, ML Kit Document Scanner, OCR no dispositivo, persistência e PDF pesquisável | [v0.4.0 publicada](https://github.com/Soturine/replicascan/releases/tag/v0.4.0); v0.4.1 em desenvolvimento |
-| [**TCC — Monitoramento de Quedas**](https://github.com/Soturine/tcc) | Evolução *mobile-first* com ESP32, MQTT, backend, app Kotlin/Compose e pesquisa com dados de pulso | Protótipo acadêmico; validação física do novo wearable ainda pendente |
-| [**IoT Fall Monitor**](https://github.com/Soturine/iot-fall-monitor) | Base anterior full stack com ESP32/MPU6050, MQTT, Node.js/MySQL e dashboard React | [v0.9.0](https://github.com/Soturine/iot-fall-monitor/releases/tag/v0.9.0) |
-| [**VolumeOK**](https://github.com/Soturine/volumeok) | Diagnóstico e correções seguras de estados de som no Android, com atenção à acessibilidade | MVP em desenvolvimento; sem publicação na Play Store informada |
+Plataforma full stack que reúne perfil, currículo, evidências, oportunidades e candidaturas, com **ações propostas por IA sujeitas à aprovação humana**.
 
-## 🎮 Experimentos e pesquisa aplicada
+- **Evidence Inbox + Evidence Graph** tipados, proveniência e estados de revisão
+- **Career Copilot + Next Best Actions** com prévia, impacto, aprovação, auditoria e desfazer alterações
+- **Resume Studio, Application Lab, Tracker** e extensão Chrome com Local Companion
+- **FastAPI/Pydantic + React/TypeScript + SQLite**; IA externa opcional e privacidade por padrão
+- Testes backend, integração/E2E cross-browser, CodeQL e geração de evidências de segurança
 
-| Projeto | O que demonstra | Estado |
-| --- | --- | --- |
-| [**Soturine's Chaos Randomizer**](https://github.com/Soturine/beamng-soturine-chaos-randomizer) | Mod Lua para BeamNG.drive: randomização reproduzível, Vehicle DNA, eventos e IA multi-veículo | [v0.7.12 experimental](https://github.com/Soturine/beamng-soturine-chaos-randomizer/releases/tag/v0.7.12); validação ao vivo no jogo pendente |
-| [**ThermalOps**](https://github.com/Soturine/thermalops) | Arquitetura de diagnóstico e manutenção de impressoras térmicas com adaptadores por fabricante | **M0: planejamento/arquitetura**, não validado em hardware |
-| [**Mora Core**](https://github.com/Soturine/mora-core) · [**Mora Masculina**](https://github.com/Soturine/moramasculina) · [**Mora Feminina**](https://github.com/Soturine/morafeminina) | Arquitetura de operações para varejo e experiências web de catálogo/e-commerce | Projetos com maturidades diferentes; ver respectivos repositórios |
+🔗 [Repositório](https://github.com/Soturine/SotuHire) • [Release v2.0](https://github.com/Soturine/SotuHire/releases/tag/v2.0) • [Documentação](https://soturine.github.io/SotuHire/)
+
+---
+
+### 🩺 Prescripta — Medication Safety, Evidence Intelligence e Research & RWE
+
+[![Release](https://img.shields.io/github/v/release/Soturine/Prescripta?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/Prescripta/releases)
+[![CI](https://github.com/Soturine/Prescripta/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/Prescripta/actions/workflows/ci.yml)
+[![Security](https://github.com/Soturine/Prescripta/actions/workflows/security.yml/badge.svg)](https://github.com/Soturine/Prescripta/actions/workflows/security.yml)
+
+Plataforma **educacional e demonstrativa de healthtech**, organizada em três pilares, com dados fictícios, rastreabilidade e revisão humana.
+
+- **Medication Safety:** regras determinísticas de dose, alertas, reconciliação e revisão farmacêutica
+- **Evidence Intelligence:** fontes versionadas, proveniência e relatórios auditáveis
+- **Research & RWE:** dados sintéticos, coortes agregadas e análise de qualidade de dados
+- **FastAPI + React + PostgreSQL/Alembic**, controle de acesso, trilhas de auditoria e interoperabilidade **FHIR/OMOP parcial e demonstrativa**
+- **v1.1.0:** correções verificadas de autorização, consistência de decisões, sessões, concorrência, segurança e testes de mutação, com auditoria documentada
+
+> **Limite:** não é dispositivo médico, não possui validação clínica/regulatória e não deve ser usado em atendimento ou decisões médicas reais.
+
+🔗 [Repositório](https://github.com/Soturine/Prescripta) • [Release v1.1.0](https://github.com/Soturine/Prescripta/releases/tag/v1.1.0) • [Auditoria](https://github.com/Soturine/Prescripta/tree/main/docs/audits/2026-11-prescripta-assurance)
+
+---
+
+### 🚆 SotuRail — Engenharia verificável para agentes de IA
+
+[![npm](https://img.shields.io/npm/v/soturail?style=flat-square)](https://www.npmjs.com/package/soturail)
+[![CI](https://github.com/Soturine/soturail/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/soturail/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/soturail/blob/main/LICENSE)
+
+Ferramenta **local-first** para manter verificáveis o contexto, os contratos e as evidências de fluxos de desenvolvimento assistidos por agentes.
+
+- **Workspace identity, capability registry e change contracts** para delimitar escopo e mudanças
+- **Authority/Readiness Gates**: distingue propostas da IA de evidências atuais e verificadas
+- **Proveniência, freshness, fingerprints e artefatos reproduzíveis** para decisões auditáveis
+- **TypeScript/Node.js, CLI e MCP**; não executa shell arbitrário como função principal
+- **v1.6.1 publicada no npm:** correções obtidas por uso real em projetos e com agentes, incluindo o tratamento de fingerprints e workspace sem Git
+
+🔗 [Repositório](https://github.com/Soturine/soturail) • [Release v1.6.1](https://github.com/Soturine/soturail/releases/tag/v1.6.1) • [npm](https://www.npmjs.com/package/soturail)
+
+---
+
+### 🎨 GLSketch Studio — Editor visual OpenGL com código bidirecional
+
+[![Release](https://img.shields.io/github/v/release/Soturine/glsketch-studio?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/glsketch-studio/releases)
+[![License](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](https://github.com/Soturine/glsketch-studio/blob/main/LICENSE)
+
+Editor desktop 2D que permite **desenhar visualmente e editar o código Python/PyOpenGL nos dois sentidos**.
+
+- Canvas **QOpenGLWidget + PyOpenGL** com seleção, formas, zoom, pan, rotação e edição por vértices
+- Camadas, preenchimento e borda, projetos `.glsketch`, desfazer/refazer e exportação Python/OpenGL
+- Sincronização cena ↔ código com **parser AST controlado** e diagnósticos
+- Preview GLUT isolado e pacote portátil para Windows
+- **v1.3.0:** melhorias de ferramentas, experiência desktop e distribuição
+
+🔗 [Repositório](https://github.com/Soturine/glsketch-studio) • [Release v1.3.0 / executável Windows](https://github.com/Soturine/glsketch-studio/releases/tag/v1.3.0)
+
+---
+
+## 🧪 Qualidade de software e ferramentas para agentes
+
+### 🛡️ Assertiva — Adaptive Test Intelligence & Assurance
+
+[![Release](https://img.shields.io/github/v/release/Soturine/Assertiva?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/Assertiva/releases)
+[![CI](https://github.com/Soturine/Assertiva/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/Assertiva/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/Assertiva/blob/main/LICENSE)
+
+Ferramenta Python e Agent Skill que **audita a qualidade da evidência dos testes**, não apenas o status verde da suíte.
+
+- **AUDIT / SELECT / RUN / DIAGNOSE / VERIFY:** auditoria, seleção adaptativa, execução e investigação de falhas
+- Verificação de **oráculos, regressões, escopo real de CI e testes de mutação** conforme adaptadores disponíveis
+- Execução em **cópia isolada**, relatórios HTML/JSON e registro de lacunas e incertezas
+- **v0.10.1:** correções baseadas em dogfood real e testes de regressão; distribuída por GitHub Release, **não pelo PyPI**
+
+🔗 [Repositório](https://github.com/Soturine/Assertiva) • [Release v0.10.1](https://github.com/Soturine/Assertiva/releases/tag/v0.10.1) • [Exemplo de evidência](https://github.com/Soturine/Assertiva/blob/main/docs/PROOF_OF_PROTECTION.md)
+
+---
+
+### 🧪 Functional Test Designer — Casos de teste funcionais rastreáveis
+
+[![Release](https://img.shields.io/github/v/release/Soturine/functional-test-designer?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/functional-test-designer/releases)
+[![Tests](https://github.com/Soturine/functional-test-designer/actions/workflows/tests.yml/badge.svg)](https://github.com/Soturine/functional-test-designer/actions/workflows/tests.yml)
+
+Agent Skill para criar **casos de teste com origem verificável em requisitos, documentos e código selecionado**.
+
+- Casos em **JSON canônico**, relatórios **Markdown/HTML**, cobertura, rastreabilidade, Questions e Findings
+- **Expected Results** ancorados em fontes; dúvidas não viram expectativas inventadas
+- Revisão incremental por decisões/ADRs e cenários adversariais opcionais
+- Integração com **Azure DevOps**: preparação local separada da publicação externa, que exige aprovação explícita
+
+🔗 [Repositório](https://github.com/Soturine/functional-test-designer) • [Release v2.5.0](https://github.com/Soturine/functional-test-designer/releases/tag/v2.5.0) • [Guia PT-BR](https://github.com/Soturine/functional-test-designer/blob/main/README.pt-BR.md)
+
+---
+
+### ✍️ VozNativa — Reescrita contextual em português brasileiro
+
+[![Pré-release](https://img.shields.io/badge/pr%C3%A9--release-v0.8.0.dev0-blue?style=flat-square)](https://github.com/Soturine/VozNativa/releases/tag/v0.8.0.dev0)
+[![CI](https://github.com/Soturine/VozNativa/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/VozNativa/actions/workflows/ci.yml)
+
+Engine e Agent Skill em Python para **adaptar textos em PT-BR à voz, ao contexto e ao público**, preservando fatos e restrições essenciais.
+
+- **Semantic Ledger e gates** para checar números, datas, negações, modalidade e outras invariantes
+- Planner, reescrita contextual, suporte a documentos longos e comparação das candidatas
+- Registro de corpora, experimentos reproduzíveis e avaliações com separação de dados
+- **v0.8.0.dev0 é pré-release:** sem publicação estável no PyPI; gate determinístico não prova equivalência semântica por si só
+
+🔗 [Repositório](https://github.com/Soturine/VozNativa) • [Pré-release](https://github.com/Soturine/VozNativa/releases/tag/v0.8.0.dev0)
+
+---
+
+### 🔍 QE Engineering Skill — Engenharia de qualidade baseada em evidências
+
+[![Repository](https://img.shields.io/badge/status-desenvolvimento-555?style=flat-square)](https://github.com/Soturine/qe-engineering-skill)
+
+Agent Skill de **Quality Engineering manual-first** voltada à descoberta de requisitos, riscos, evidências e desenho de testes.
+
+- Inventário de fontes, proveniência, avaliação de oráculos e revisão de ativos de QA existentes
+- Uso em sistemas web, APIs, dados, mobile, IoT e automação, com decisões de confiança explícitas
+- Base de código e testes disponíveis; **sem release publicada**
+
+🔗 [Repositório](https://github.com/Soturine/qe-engineering-skill)
+
+---
+
+## ⚙️ Engenharia aplicada
+
+### 📱 ReplicaScan — Scanner Android local-first
+
+[![Release](https://img.shields.io/github/v/release/Soturine/replicascan?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/replicascan/releases)
+[![Android CI](https://github.com/Soturine/replicascan/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Soturine/replicascan/actions/workflows/android-ci.yml)
+
+Aplicativo Android de digitalização de documentos com processamento local, OCR no dispositivo e exportação de arquivos pesquisáveis.
+
+- **ML Kit Document Scanner** no fluxo documentado da v0.4.1, com captura e revisão multipágina
+- OCR local, organização e busca, **PDF pesquisável**, JPG e PNG
+- **Kotlin + Jetpack Compose + Material 3**, persistência local e experiência multilíngue
+- **v0.4.0** é a última release publicada; **v0.4.1 está em desenvolvimento**, com redesign e melhorias em revisão/exportação
+
+🔗 [Repositório](https://github.com/Soturine/replicascan) • [Release v0.4.0](https://github.com/Soturine/replicascan/releases/tag/v0.4.0) • [Site](https://soturine.github.io/replicascan/)
+
+---
+
+### ⌚ TCC — Monitoramento de quedas mobile-first
+
+[![Status](https://img.shields.io/badge/status-prot%C3%B3tipo_acad%C3%AAmico-555?style=flat-square)](https://github.com/Soturine/tcc)
+
+Evolução do projeto IoT de quedas, agora com foco em **wearable de pulso, resiliência de eventos críticos e app Android**.
+
+- **ESP32 + MQTT + backend + Kotlin/Jetpack Compose** e painel web
+- Entrega crítica e persistência estudadas com outbox, idempotência, ACK após commit e testes host/emulação
+- Primeira caracterização offline com dataset de pulso **WEDA-FALL**; não é validação clínica
+- **Limites atuais:** novo wearable ainda sem validação física; Android em estágio de desenvolvimento, FCM e integração final pendentes
+
+🔗 [Repositório](https://github.com/Soturine/tcc)
+
+---
+
+### 🧓 Sistema IoT de Detecção de Quedas
+
+[![Release](https://img.shields.io/github/v/release/Soturine/iot-fall-monitor?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/iot-fall-monitor/releases)
+
+Projeto acadêmico full stack que integra **ESP32 + MPU6050**, MQTT, Node.js, MySQL, Socket.IO e React para monitorar quedas, imobilidade e telemetria com evidência física de bancada.
+
+- Detecção local conservadora com impacto, mudança de orientação e imobilidade antes de confirmar uma queda
+- Pareamento de dispositivos, organizações, pacientes, papéis e histórico de vínculos em dashboard multi-tenant
+- Eventos MQTT críticos com identidade, fila local, deduplicação, correlação e evidência estruturada no backend
+- Telemetria em tempo real, alertas, diagnóstico operacional, modos Normal/Demo e calibração experimental de bateria por tempo
+- Release v0.9.0 documentada com ESP32 real, MQTT, backend e frontend operando, além de suites unitárias, integração e ingestão MQTT
+
+🔗 [Repositório](https://github.com/Soturine/iot-fall-monitor)
+
+---
+
+### 🏎️ Soturine's Chaos Randomizer — Mod experimental para BeamNG.drive
+
+[![Pré-release](https://img.shields.io/github/v/release/Soturine/beamng-soturine-chaos-randomizer?include_prereleases&sort=semver&style=flat-square&label=prerelease)](https://github.com/Soturine/beamng-soturine-chaos-randomizer/releases)
+[![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/beamng-soturine-chaos-randomizer/blob/main/LICENSE)
+
+Mod Lua experimental de randomização determinística de veículos, **Vehicle DNA** e eventos de múltiplos carros.
+
+- Modos **Random Car, Scramble e Full Random** com seeds, rollback e diagnóstico
+- Garagem local, captura/restauração de Vehicle DNA e exportação/importação controlada
+- Eventos, gerenciamento de competidores, presets de IA e **rota gravada**
+- **v0.7.12** é pré-release experimental voltada ao BeamNG 0.40.4 (mínimo 0.39)
+- Testes automatizados realizados; **18 casos de validação presencial no jogo ainda pendentes** na publicação da v0.7.12
+
+🔗 [Repositório](https://github.com/Soturine/beamng-soturine-chaos-randomizer) • [Pré-release v0.7.12](https://github.com/Soturine/beamng-soturine-chaos-randomizer/releases/tag/v0.7.12)
+
+---
+
+### 🔊 VolumeOK — Assistente de som para Android
+
+[![Status](https://img.shields.io/badge/status-MVP_em_desenvolvimento-555?style=flat-square)](https://github.com/Soturine/volumeok)
+
+Aplicativo Android para diagnosticar e corrigir, com segurança, situações em que o celular fica silencioso sem intenção.
+
+- Estados de **readiness** com explicações, teste de som guiado e correções permitidas pelo Android
+- Política opt-in e proteção contra oscilação repetida de volume, com atenção à acessibilidade
+- **Kotlin + Jetpack Compose + DataStore**; validação real depende do dispositivo/OEM
+
+🔗 [Repositório](https://github.com/Soturine/volumeok)
+
+---
+
+### 🖨️ ThermalOps — Diagnóstico e manutenção de impressoras térmicas
+
+[![Status](https://img.shields.io/badge/status-M0_planejamento-555?style=flat-square)](https://github.com/Soturine/thermalops)
+
+Arquitetura Windows-first para diagnóstico, manutenção preventiva e coleta de evidências em impressoras térmicas, com adaptadores por fabricante.
+
+- Escopo inicial para Zebra, com desenho de extensão a outros fabricantes
+- **Estado M0:** arquitetura, documentação e critérios de aceitação; **sem implementação física validada**
+
+🔗 [Repositório](https://github.com/Soturine/thermalops)
+
+---
 
 ## 🎓 Projetos acadêmicos selecionados
 
-| Projeto | Tecnologias / competências |
-| --- | --- |
-| [**Biblioteca Geek Fullstack**](https://github.com/Soturine/biblioteca-geek-fullstack) | Node.js, Express, MySQL/MongoDB, autenticação, CRUD e arquitetura web |
-| [**Vale dos Causos**](https://github.com/Soturine/fazenda-inteligente-cbr) | TypeScript, Phaser 3 e raciocínio baseado em casos (CBR) |
-| [**PetBot**](https://github.com/Soturine/petbot-prolog-ia) | SWI-Prolog, regras de inferência, recomendações e testes |
-| [**Robô Sumô ESP32**](https://github.com/Soturine/esp32-sumo-robot) | ESP-IDF/PlatformIO, sensores, PWM e lógica de controle |
-| [**Robô Seguidor de Linha**](https://github.com/Soturine/esp32-line-follower-robot) | ESP32, sensores de refletância e controle de motores |
+| Projeto | O que demonstra | Tecnologias |
+| --- | --- | --- |
+| [**Biblioteca Geek Fullstack**](https://github.com/Soturine/biblioteca-geek-fullstack) | Autenticação, autorização, CRUD, reservas, logs, relatórios e arquitetura em camadas | Node.js, Express, MySQL, MongoDB, JWT, Bootstrap |
+| [**Vale dos Casos**](https://github.com/Soturine/fazenda-inteligente-cbr) | Jogo web 2D com assistente agrícola baseado em Raciocínio Baseado em Casos | TypeScript, Vite, Phaser 3, CBR |
+| [**PetBot**](https://github.com/Soturine/petbot-prolog-ia) | Sistema especialista explicável com regras, score, alertas, vetos e testes | SWI-Prolog |
+| [**Robô Sumô ESP32**](https://github.com/Soturine/esp32-sumo-robot) | Robótica móvel, sensores, PWM, borda, busca e ataque | C, ESP-IDF, PlatformIO, ESP32 |
+| [**Robô Seguidor de Linha**](https://github.com/Soturine/esp32-line-follower-robot) | Controle discreto, filtros de leitura e presets de resposta | C, ESP-IDF, PlatformIO, ESP32 |
 
 ---
 
-## 🛠️ Tecnologias e práticas
+## 🛠️ Stack e competências
 
-**Backend e dados:** `Python` · `Django` · `FastAPI` · `Pydantic` · `PostgreSQL` · `MySQL` · `SQLite` · `Node.js` · `APIs REST`  
-**Frontend e mobile:** `TypeScript` · `JavaScript` · `React` · `Vite` · `Kotlin` · `Jetpack Compose` · `CameraX` · `ML Kit`  
-**Desktop, hardware e IoT:** `PySide6` · `PyOpenGL` · `C/C++` · `ESP32` · `ESP-IDF` · `PlatformIO` · `MQTT` · `Node-RED`  
-**Qualidade e entrega:** `pytest` · `Vitest` · `Playwright` · `Ruff` · `GitHub Actions` · `CodeQL` · `Docker` · `SBOM` · `CI/CD` · `Azure DevOps`  
-**Engenharia:** análise de requisitos, contratos, rastreabilidade, testes de integração/E2E, segurança, documentação, *debugging* e experimentos reproduzíveis.
+### Stack principal
 
-Não considero ter domínio equivalente de todas essas tecnologias: o nível de experiência varia conforme o projeto e a atividade.
+`Python` `Django` `TypeScript` `JavaScript` `React` `FastAPI` `Node.js` `REST APIs` `SQL`
 
-## 🧭 Como desenvolvo
+### Desktop e computação gráfica
 
-- **Problema antes da ferramenta:** contexto, requisitos e trade-offs claros.
-- **Evidência antes da conclusão:** diferenciar teste executado, resultado observado, inferência e pendência.
-- **IA com responsabilidade:** revisão humana, proveniência e regras verificáveis para operações sensíveis.
-- **Software utilizável:** instalação, documentação, logs, tratamento de erros, testes e limites conhecidos.
-- **Evolução incremental:** refatorar, reduzir duplicações, registrar regressões e manter o código coerente com a documentação.
+`PySide6` `PyOpenGL` `QOpenGLWidget` `GLUT`
 
-## 🎵 Além do código
+### Mobile
 
-Produzo músicas e experimentos criativos sob o nome **Soturine**: [Spotify](https://open.spotify.com/intl-pt/artist/3l7S3LRvCbVM4qqD8zwQSG) · [YouTube Music](https://music.youtube.com/channel/UCYTTjhDXj4T5LnyTktDck2g).
+`Kotlin` `Jetpack Compose` `Material 3` `CameraX` `ML Kit` `Room` `DataStore` `WorkManager`
+
+### IoT, sistemas embarcados e robótica
+
+`C` `C++` `ESP32` `ESP-IDF` `PlatformIO` `FreeRTOS` `MQTT` `MPU6050` `HC-SR04` `TCRT5000` `L298N`
+
+### Dados, qualidade e entrega
+
+`PostgreSQL` `MySQL` `MongoDB` `SQLite` `Docker` `Azure DevOps` `Node-RED` `Pydantic` `pytest` `Ruff` `Pyright` `Vitest` `Playwright` `GitHub Actions` `CodeQL` `SAST/SCA` `SBOM` `npm`
+
+### Experiência complementar
+
+`Java` `C#` `PHP` `Prolog` `Phaser 3` `Rust` `PowerShell` `Figma`
+
+---
+
+## ✅ Princípios de desenvolvimento
+
+- **Local-first e privacidade**, reduzindo dependências externas desnecessárias
+- **IA como apoio**, com regras determinísticas quando críticas, structured output, revisão humana, fallback e rastreabilidade
+- **Evidências antes de claims**, diferenciando o que foi testado, inferido, bloqueado ou ainda está pendente
+- **Segurança proporcional ao domínio**, com autorização, gestão de secrets, supply chain e threat modeling quando aplicáveis
+- **Arquitetura clara e testes úteis**, com integração/E2E e validação real quando o comportamento depende de hardware ou runtime externo
+- **Entrega reproduzível**, com CI/CD, artefatos versionados, checksums, SBOM/proveniência e documentação de limites
+- **Automação responsável**, sem spam, auto-apply, bypass ou ações críticas sem confirmação
+
+---
+
+## 🎵 Projeto musical — Soturine
+
+Além da programação, produzo músicas e experimentos criativos usando o nome **Soturine**.
+
+<p align="center">
+  <a href="https://open.spotify.com/intl-pt/artist/3l7S3LRvCbVM4qqD8zwQSG">
+    <img src="https://img.shields.io/badge/Ouvir%20no%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
+  </a>
+  <a href="https://music.youtube.com/channel/UCYTTjhDXj4T5LnyTktDck2g">
+    <img src="https://img.shields.io/badge/Ouvir%20no%20YouTube%20Music-FF0000?style=for-the-badge&logo=youtubemusic&logoColor=white" />
+  </a>
+</p>
 
 ---
 
@@ -167,6 +349,8 @@ Produzo músicas e experimentos criativos sob o nome **Soturine**: [Spotify](htt
   <img width="370" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Soturine&theme=tokyonight" alt="Linguagens com mais commits" />
 </p>
 
+---
+
 ## 🎮 Contribuições
 
 <p align="center">
@@ -179,6 +363,6 @@ Produzo músicas e experimentos criativos sob o nome **Soturine**: [Spotify](htt
 
 ---
 
-<div align="center">
-  <em>Software, hardware e engenharia com curiosidade, responsabilidade e evidências.</em>
-</div>
+<p align="center">
+  <em>Construindo produtos que conectam software, hardware, evidências, criatividade e problemas reais.</em>
+</p>
