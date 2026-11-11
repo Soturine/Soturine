@@ -121,11 +121,11 @@ Editor desktop 2D que permite **desenhar visualmente e editar o código Python/P
 [![CI](https://github.com/Soturine/Assertiva/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/Assertiva/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f?style=flat-square)](https://github.com/Soturine/Assertiva/blob/main/LICENSE)
 
-Ferramenta Python e Agent Skill que **audita a qualidade da evidência dos testes**, não apenas o status verde da suíte.
+Ferramenta Python e Agent Skill que **audita a qualidade da evidência dos testes**, indo além do resultado verde da suíte.
 
 - **AUDIT / SELECT / RUN / DIAGNOSE / VERIFY:** auditoria, seleção adaptativa, execução e investigação de falhas
 - Verificação de **oráculos, regressões, escopo real de CI e testes de mutação** conforme adaptadores disponíveis
-- Execução em **cópia isolada**, relatórios HTML/JSON e registro de lacunas e incertezas
+- Auditoria **estática por padrão**; execução de testes somente quando solicitada, em cópia descartável do projeto, usando as permissões do usuário (não é sandbox)
 - **v0.10.1:** correções baseadas em dogfood real e testes de regressão; distribuída por GitHub Release, **não pelo PyPI**
 
 🔗 [Repositório](https://github.com/Soturine/Assertiva) • [Release v0.10.1](https://github.com/Soturine/Assertiva/releases/tag/v0.10.1) • [Exemplo de evidência](https://github.com/Soturine/Assertiva/blob/main/docs/PROOF_OF_PROTECTION.md)
@@ -153,9 +153,9 @@ Agent Skill para criar **casos de teste com origem verificável em requisitos, d
 [![Pré-release](https://img.shields.io/badge/pr%C3%A9--release-v0.8.0.dev0-blue?style=flat-square)](https://github.com/Soturine/VozNativa/releases/tag/v0.8.0.dev0)
 [![CI](https://github.com/Soturine/VozNativa/actions/workflows/ci.yml/badge.svg)](https://github.com/Soturine/VozNativa/actions/workflows/ci.yml)
 
-Engine e Agent Skill em Python para **adaptar textos em PT-BR à voz, ao contexto e ao público**, preservando fatos e restrições essenciais.
+Engine e Agent Skill em Python para **adaptar textos em PT-BR à voz, ao contexto e ao público**, com checagens explícitas para reduzir alterações indevidas de fatos e restrições.
 
-- **Semantic Ledger e gates** para checar números, datas, negações, modalidade e outras invariantes
+- **Semantic Ledger e gates determinísticos** para sinalizar alterações de números, datas, negações, modalidade e outras restrições; a aprovação semântica exige avaliação adicional
 - Planner, reescrita contextual, suporte a documentos longos e comparação das candidatas
 - Registro de corpora, experimentos reproduzíveis e avaliações com separação de dados
 - **v0.8.0.dev0 é pré-release:** sem publicação estável no PyPI; gate determinístico não prova equivalência semântica por si só
@@ -185,29 +185,14 @@ Agent Skill de **Quality Engineering manual-first** voltada à descoberta de req
 [![Release](https://img.shields.io/github/v/release/Soturine/replicascan?sort=semver&style=flat-square&label=release)](https://github.com/Soturine/replicascan/releases)
 [![Android CI](https://github.com/Soturine/replicascan/actions/workflows/android-ci.yml/badge.svg)](https://github.com/Soturine/replicascan/actions/workflows/android-ci.yml)
 
-Aplicativo Android de digitalização de documentos com processamento local, OCR no dispositivo e exportação de arquivos pesquisáveis.
+Aplicativo Android *local-first* para digitalizar documentos, reconhecer texto no dispositivo e exportar arquivos pesquisáveis.
 
-- **ML Kit Document Scanner** no fluxo documentado da v0.4.1, com captura e revisão multipágina
+- **ML Kit Document Scanner** como fluxo de captura, com detecção de bordas e revisão multipágina
 - OCR local, organização e busca, **PDF pesquisável**, JPG e PNG
 - **Kotlin + Jetpack Compose + Material 3**, persistência local e experiência multilíngue
-- **v0.4.0** é a última release publicada; **v0.4.1 está em desenvolvimento**, com redesign e melhorias em revisão/exportação
+- **v0.4.0** é a última release publicada; **v0.4.1 permanece em desenvolvimento**, com redesign e melhorias de revisão/exportação ainda em qualificação
 
 🔗 [Repositório](https://github.com/Soturine/replicascan) • [Release v0.4.0](https://github.com/Soturine/replicascan/releases/tag/v0.4.0) • [Site](https://soturine.github.io/replicascan/)
-
----
-
-### ⌚ TCC — Monitoramento de quedas mobile-first
-
-[![Status](https://img.shields.io/badge/status-prot%C3%B3tipo_acad%C3%AAmico-555?style=flat-square)](https://github.com/Soturine/tcc)
-
-Evolução do projeto IoT de quedas, agora com foco em **wearable de pulso, resiliência de eventos críticos e app Android**.
-
-- **ESP32 + MQTT + backend + Kotlin/Jetpack Compose** e painel web
-- Entrega crítica e persistência estudadas com outbox, idempotência, ACK após commit e testes host/emulação
-- Primeira caracterização offline com dataset de pulso **WEDA-FALL**; não é validação clínica
-- **Limites atuais:** novo wearable ainda sem validação física; Android em estágio de desenvolvimento, FCM e integração final pendentes
-
-🔗 [Repositório](https://github.com/Soturine/tcc)
 
 ---
 
@@ -244,70 +229,29 @@ Mod Lua experimental de randomização determinística de veículos, **Vehicle D
 
 ---
 
-### 🔊 VolumeOK — Assistente de som para Android
-
-[![Status](https://img.shields.io/badge/status-MVP_em_desenvolvimento-555?style=flat-square)](https://github.com/Soturine/volumeok)
-
-Aplicativo Android para diagnosticar e corrigir, com segurança, situações em que o celular fica silencioso sem intenção.
-
-- Estados de **readiness** com explicações, teste de som guiado e correções permitidas pelo Android
-- Política opt-in e proteção contra oscilação repetida de volume, com atenção à acessibilidade
-- **Kotlin + Jetpack Compose + DataStore**; validação real depende do dispositivo/OEM
-
-🔗 [Repositório](https://github.com/Soturine/volumeok)
-
----
-
-### 🖨️ ThermalOps — Diagnóstico e manutenção de impressoras térmicas
-
-[![Status](https://img.shields.io/badge/status-M0_planejamento-555?style=flat-square)](https://github.com/Soturine/thermalops)
-
-Arquitetura Windows-first para diagnóstico, manutenção preventiva e coleta de evidências em impressoras térmicas, com adaptadores por fabricante.
-
-- Escopo inicial para Zebra, com desenho de extensão a outros fabricantes
-- **Estado M0:** arquitetura, documentação e critérios de aceitação; **sem implementação física validada**
-
-🔗 [Repositório](https://github.com/Soturine/thermalops)
-
----
-
 ## 🎓 Projetos acadêmicos selecionados
 
 | Projeto | O que demonstra | Tecnologias |
 | --- | --- | --- |
 | [**Biblioteca Geek Fullstack**](https://github.com/Soturine/biblioteca-geek-fullstack) | Autenticação, autorização, CRUD, reservas, logs, relatórios e arquitetura em camadas | Node.js, Express, MySQL, MongoDB, JWT, Bootstrap |
-| [**Vale dos Casos**](https://github.com/Soturine/fazenda-inteligente-cbr) | Jogo web 2D com assistente agrícola baseado em Raciocínio Baseado em Casos | TypeScript, Vite, Phaser 3, CBR |
+| [**Vale dos Causos**](https://github.com/Soturine/fazenda-inteligente-cbr) | Jogo web 2D com assistente agrícola baseado em Raciocínio Baseado em Casos | TypeScript, Vite, Phaser 3, CBR |
 | [**PetBot**](https://github.com/Soturine/petbot-prolog-ia) | Sistema especialista explicável com regras, score, alertas, vetos e testes | SWI-Prolog |
 | [**Robô Sumô ESP32**](https://github.com/Soturine/esp32-sumo-robot) | Robótica móvel, sensores, PWM, borda, busca e ataque | C, ESP-IDF, PlatformIO, ESP32 |
 | [**Robô Seguidor de Linha**](https://github.com/Soturine/esp32-line-follower-robot) | Controle discreto, filtros de leitura e presets de resposta | C, ESP-IDF, PlatformIO, ESP32 |
 
 ---
 
-## 🛠️ Stack e competências
+## 🛠️ Tecnologias e competências
 
-### Stack principal
+**Backend e dados:** Python, Django, FastAPI, Node.js, PostgreSQL, MySQL e SQLite.
 
-`Python` `Django` `TypeScript` `JavaScript` `React` `FastAPI` `Node.js` `REST APIs` `SQL`
+**Frontend e mobile:** TypeScript, React, Kotlin e Jetpack Compose.
 
-### Desktop e computação gráfica
+**Qualidade e entrega:** pytest, Playwright, Docker, GitHub Actions, Azure DevOps e análise de código.
 
-`PySide6` `PyOpenGL` `QOpenGLWidget` `GLUT`
+**IoT e desktop:** C/C++, ESP32, MQTT, Node-RED, PySide6 e OpenGL.
 
-### Mobile
-
-`Kotlin` `Jetpack Compose` `Material 3` `CameraX` `ML Kit` `Room` `DataStore` `WorkManager`
-
-### IoT, sistemas embarcados e robótica
-
-`C` `C++` `ESP32` `ESP-IDF` `PlatformIO` `FreeRTOS` `MQTT` `MPU6050` `HC-SR04` `TCRT5000` `L298N`
-
-### Dados, qualidade e entrega
-
-`PostgreSQL` `MySQL` `MongoDB` `SQLite` `Docker` `Azure DevOps` `Node-RED` `Pydantic` `pytest` `Ruff` `Pyright` `Vitest` `Playwright` `GitHub Actions` `CodeQL` `SAST/SCA` `SBOM` `npm`
-
-### Experiência complementar
-
-`Java` `C#` `PHP` `Prolog` `Phaser 3` `Rust` `PowerShell` `Figma`
+*Tecnologias e ferramentas são utilizadas em diferentes níveis conforme a experiência e cada projeto.*
 
 ---
 
